@@ -13,7 +13,7 @@
             android:name=".DonationActivity"
             android:exported="true" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".LoginFragment"
             android:exported="true" />
         <activity
             android:name=".ui.login.LoginActivity"
