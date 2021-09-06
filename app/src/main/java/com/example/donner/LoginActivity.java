@@ -7,12 +7,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-public class LoginFragment extends Fragment {
-
-
-    public LoginFragment() {
-        // Required empty public constructor
-    }
+public class LoginActivity extends Fragment {
 
 
     @Override
