@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Donner">
         <activity
+            android:name=".DonationActivity"
+            android:exported="true" />
+        <activity
             android:name=".LoginActivity"
             android:exported="true" />
         <activity
