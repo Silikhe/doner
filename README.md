@@ -17,4 +17,4 @@ Email : silikhesilas@gmail.com
 ### License
 [MIT License](./LICENSE)
 
-Copyright (c) [2021] [Clare Limo]
+Copyright (c) [2021] [Silas Silike]
