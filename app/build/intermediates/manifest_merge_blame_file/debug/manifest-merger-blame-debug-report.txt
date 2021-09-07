@@ -1,0 +1,86 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.donner"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:6:5-47:19
+12        android:allowBackup="true"
+12-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] /home/moringa/.gradle/caches/transforms-3/109c406f854d135ad1ed87dae876b357/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@drawable/logo"
+15-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:8:9-38
+16        android:label="@string/app_name"
+16-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:9:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:10:9-54
+18        android:supportsRtl="true"
+18-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:11:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.Donner" >
+20-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:12:9-44
+21        <activity
+21-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:13:9-15:39
+22            android:name="com.example.donner.DonationActivity"
+22-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:14:13-45
+23            android:exported="true" />
+23-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:15:13-36
+24        <activity
+24-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:16:9-19:45
+25            android:name="com.example.donner.LoginActivity"
+25-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:17:13-42
+26            android:exported="true" />
+26-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:18:13-36
+27        <activity
+27-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:20:9-24:43
+28            android:name="com.example.donner.ui.login.LoginActivity"
+28-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:21:13-51
+29            android:exported="true"
+29-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:22:13-36
+30            android:label="@string/title_activity_login" /> <!-- <activity -->
+30-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:23:13-57
+31        <!-- android:name=".SplashScreenActivity" -->
+32        <!-- android:exported="true" /> -->
+33        <activity
+33-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:27:9-35:20
+34            android:name="com.example.donner.SplashScreenActivity"
+34-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:28:13-49
+35            android:exported="true" >
+35-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:29:13-36
+36            <intent-filter>
+36-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:30:13-34:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:31:17-69
+37-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:31:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:33:17-77
+39-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:33:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:36:9-46:20
+43            android:name="com.example.donner.MainActivity"
+43-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:37:13-41
+44            android:exported="true" >
+44-->/home/moringa/AndroidStudioProjects/Donner/app/src/main/AndroidManifest.xml:38:13-36
+45
+46            <!-- <intent-filter> -->
+47            <!-- <action android:name="android.intent.action.MAIN" /> -->
+48
+49
+50            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+51            <!-- </intent-filter> -->
+52        </activity>
+53    </application>
+54
+55</manifest>
