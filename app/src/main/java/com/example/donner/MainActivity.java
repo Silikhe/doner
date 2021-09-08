@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button mMainBtn = (Button) findViewById(R.id.continueBtn);
         mMainBtn.setOnClickListener((view)->{
-            Toast.makeText(MainActivity.this, "Silas Added Success fully!", Toast.LENGTH_LONG).show();
+//            Toast.makeText(MainActivity.this, "Silas Added Success fully!", Toast.LENGTH_LONG).show();
             Intent intent = new Intent(MainActivity.this, LoginActivity.class);
             startActivity(intent);
         });

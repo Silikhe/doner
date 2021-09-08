@@ -6,43 +6,29 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class DonationActivity extends AppCompatActivity {
+    private ListView mListView;
+    private String[] donations = new String[]{
+            "Mukuru Donations", "Kijabe Donations", "Nairobi donations", "Silas Donations",
+            "Tevin Donations", "Mike Donations",
+            "Yvonne Donations"
+    };
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_donation);
 
-//        ViewPager viewPager = findViewById(R.id.viewPager);
-//
-//        AuthenticationPagerAdapter pagerAdapter = new AuthenticationPagerAdapter(getSupportFragmentManager());
-//        pagerAdapter.addFragmet(new LoginFragment());
-////        pagerAdapter.addFragmet(new RegisterFragment());
-//        viewPager.setAdapter(pagerAdapter);
-    }
+        mListView = (ListView) findViewById(R.id.listview);
+        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, donations);
+        mListView.setAdapter(adapter);
 
-//    static class AuthenticationPagerAdapter extends FragmentPagerAdapter {
-//        private ArrayList<Fragment> fragmentList = new ArrayList<>();
-//
-//        public AuthenticationPagerAdapter(FragmentManager fm) {
-//            super(fm);
-//        }
-//
-//        @Override
-//        public Fragment getItem(int i) {
-//            return fragmentList.get(i);
-//        }
-//
-//        @Override
-//        public int getCount() {
-//            return fragmentList.size();
-//        }
-//
-//        void addFragmet(Fragment fragment) {
-//            fragmentList.add(fragment);
-//        }
-//    }
+    }
 }
