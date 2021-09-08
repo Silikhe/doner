@@ -1,0 +1,19 @@
+com/example/donner/databinding/ActivityDonationBinding.java
+ com.example.donner.databinding.ActivityDonationBinding
+com/example/donner/MainActivity.java
+ com.example.donner.MainActivity
+com/example/donner/databinding/ActivityLoginBinding.java
+ com.example.donner.databinding.ActivityLoginBinding
+com/example/donner/BuildConfig.java
+ com.example.donner.BuildConfig
+com/example/donner/DonationActivity.java
+ com.example.donner.DonationActivity
+com/example/donner/databinding/ActivityMainBinding.java
+ com.example.donner.databinding.ActivityMainBinding
+com/example/donner/SplashScreenActivity.java
+ com.example.donner.SplashScreenActivity
+ com.example.donner.SplashScreenActivity$1
+com/example/donner/databinding/ActivitySplashScreenBinding.java
+ com.example.donner.databinding.ActivitySplashScreenBinding
+com/example/donner/LoginActivity.java
+ com.example.donner.LoginActivity

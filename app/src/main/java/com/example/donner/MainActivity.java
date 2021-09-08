@@ -8,14 +8,14 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    private Button mMainBtn;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mMainBtn = (Button) findViewById(R.id.continueBtn);
+        Button mMainBtn = (Button) findViewById(R.id.continueBtn);
         mMainBtn.setOnClickListener((view)->{
 //            Toast.makeText(MainActivity.this, "Silas Added Success fully!", Toast.LENGTH_LONG).show();
             Intent intent = new Intent(MainActivity.this, LoginActivity.class);
