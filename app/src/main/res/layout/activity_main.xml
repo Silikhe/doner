@@ -19,13 +19,14 @@
         app:srcCompat="@drawable/main1" />
 
     <TextView
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Start Donating Now"
         android:textColor="@color/black"
         android:textSize="22sp"
-        android:textStyle="normal"
+        android:textStyle="normal|bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -35,17 +36,18 @@
         android:layout_width="260dp"
         android:layout_height="57dp"
         android:layout_marginStart="62dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="62dp"
+        android:layout_marginBottom="20dp"
         android:fontFamily="sans-serif-medium"
         android:text="An African family needs your cloths. Be a helper donate make giving convenient"
         android:textAlignment="center"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/continueBtn"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:layout_constraintVertical_bias="0.428" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/continueBtn"

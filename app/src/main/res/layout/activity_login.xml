@@ -40,7 +40,7 @@
         android:id="@+id/et_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
@@ -69,9 +69,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_login"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="17dp"
+        android:clickable="false"
         android:text="Already have an account?"
         android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/infoTxtCredits"
+        android:layout_width="104dp"
+        android:layout_height="17dp"
+        android:layout_below="@+id/btn_login"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="236dp"
+        android:layout_toEndOf="@+id/swipeRight"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="SignUp"
+        android:textColor="@color/yellow"></TextView>
 
 </RelativeLayout>

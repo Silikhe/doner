@@ -1,25 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "/home/moringa/AndroidStudioProjects/Donner/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/moringa/AndroidStudioProjects/Donner/app/src/main/res/values-night/themes.xml",
+                    "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/values-night/themes.xml",
                     "from": {
-                        "startLines": "19",
+                        "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "1122",
-                        "endLines": "37",
+                        "startOffsets": "100",
+                        "endLines": "14",
                         "endColumns": "12",
-                        "endOffsets": "2333"
+                        "endOffsets": "815"
                     },
                     "to": {
                         "startLines": "9",
                         "startColumns": "4",
                         "startOffsets": "732",
-                        "endLines": "27",
+                        "endLines": "21",
                         "endColumns": "12",
-                        "endOffsets": "1933"
+                        "endOffsets": "1445"
                     }
                 },
                 {
@@ -32,11 +32,11 @@
                         "endOffsets": "138,262,364,466,582,684,798,926,1042,1164,1300,1420,1554,1674,1786,1912,2036,2166,2288,2426,2560,2676,2796"
                     },
                     "to": {
-                        "startLines": "28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,45,46,47,48,49,50,51",
+                        "startLines": "22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,39,40,41,42,43,44,45",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "1938,2026,2150,2252,2354,2470,2572,2686,2814,2930,3052,3188,3308,3442,3562,3674,3889,4013,4143,4265,4403,4537,4653",
+                        "startOffsets": "1450,1538,1662,1764,1866,1982,2084,2198,2326,2442,2564,2700,2820,2954,3074,3186,3401,3525,3655,3777,3915,4049,4165",
                         "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,123,129,121,137,133,115,119",
-                        "endOffsets": "2021,2145,2247,2349,2465,2567,2681,2809,2925,3047,3183,3303,3437,3557,3669,3795,4008,4138,4260,4398,4532,4648,4768"
+                        "endOffsets": "1533,1657,1759,1861,1977,2079,2193,2321,2437,2559,2695,2815,2949,3069,3181,3307,3520,3650,3772,3910,4044,4160,4280"
                     }
                 },
                 {
@@ -49,11 +49,11 @@
                         "endOffsets": "120,204,288,384,486,588,682,771"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,44",
+                        "startLines": "2,3,4,5,6,7,8,38",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "100,170,254,338,434,536,638,3800",
+                        "startOffsets": "100,170,254,338,434,536,638,3312",
                         "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "165,249,333,429,531,633,727,3884"
+                        "endOffsets": "165,249,333,429,531,633,727,3396"
                     }
                 }
             ]
