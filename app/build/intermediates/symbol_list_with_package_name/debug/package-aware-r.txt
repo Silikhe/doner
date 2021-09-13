@@ -1924,6 +1924,12 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id blogContent
+id blogImg
+id blogMore
+id blogName
+id blogTile
+id blogs_recycler
 id bottom
 id bounce
 id bounceBoth
@@ -2069,7 +2075,6 @@ id line3
 id linear
 id listMode
 id list_item
-id listview
 id logintxt
 id logo_text
 id masked
@@ -2381,6 +2386,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_blog_items
 layout activity_donation
 layout activity_login
 layout activity_main
