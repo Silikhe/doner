@@ -1933,6 +1933,7 @@ id btn_login
 id buttonPanel
 id cache_measures
 id cancel_button
+id card
 id carryVelocity
 id center
 id center_horizontal

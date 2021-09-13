@@ -15,7 +15,7 @@
 12        android:allowBackup="true"
 12-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:7:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.5.0] /home/moringa/.gradle/caches/transforms-3/109c406f854d135ad1ed87dae876b357/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.5.0] /home/moringa/.gradle/caches/transforms-3/255d63c0f9f8f5d12ab3191ffb377750/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@drawable/icon"
 15-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:8:9-38
