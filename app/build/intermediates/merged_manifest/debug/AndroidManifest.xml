@@ -19,6 +19,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Donner" >
         <activity
+            android:name="com.example.donner.Blog_items"
+            android:exported="true" />
+        <activity
             android:name="com.example.donner.SplashScreenActivity"
             android:exported="true" >
             <intent-filter>
