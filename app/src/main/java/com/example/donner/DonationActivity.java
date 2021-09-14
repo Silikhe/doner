@@ -7,8 +7,10 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -22,13 +24,21 @@ public class DonationActivity extends AppCompatActivity {
 //            "Yvonne Donations"
 //    };
 
+    private Button btn_load;
+    private String url = "";
+    private String nextToken = "";
+    private ArrayList<Blogs> blogsArrayList;
+//    private RecyclerViewAdapter
+
+    private static final String TAG = "MAIN_TAG";
     RecyclerView recyclerView;
-    ArrayList<Blogs> blogsArrayList;
+//    ArrayList<Blogs> blogsArrayList;
     RecyclerViewAdapter recyclerViewAdapter;
     String title;
     String displayName;
     String img_url;
     String content;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +54,8 @@ public class DonationActivity extends AppCompatActivity {
         recyclerViewAdapter = new RecyclerViewAdapter(this, blogsArrayList);
         recyclerView.setAdapter(recyclerViewAdapter);
 
+
+        btn_load = findViewById(R.id.btn_load);
 
 
 //        mListView = (ListView) findViewById(R.id.listview);
