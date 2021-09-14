@@ -57,6 +57,9 @@ public class DonationActivity extends AppCompatActivity {
 
         btn_load = findViewById(R.id.btn_load);
 
+        blogsArrayList = new ArrayList<>();
+        blogsArrayList.clear();
+
 
 //        mListView = (ListView) findViewById(R.id.listview);
 //        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, donations);
