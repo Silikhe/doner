@@ -8,10 +8,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,6 +30,7 @@ public class DonationActivity extends AppCompatActivity {
     private String url = "";
     private String nextToken = "";
     private ArrayList<Blogs> blogsArrayList;
+    private ProgressDialog progressBar;
 //    private RecyclerViewAdapter
 
     private static final String TAG = "MAIN_TAG";
@@ -60,10 +63,18 @@ public class DonationActivity extends AppCompatActivity {
         blogsArrayList = new ArrayList<>();
         blogsArrayList.clear();
 
+        progressBar = new ProgressDialog(this);
+        progressBar.setTitle("Loading data");
 
+
+        loadPost();
 //        mListView = (ListView) findViewById(R.id.listview);
 //        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, donations);
 //        mListView.setAdapter(adapter);
+
+    }
+
+    private void loadPost() {
 
     }
 }
