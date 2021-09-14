@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
@@ -64,7 +65,7 @@ public class DonationActivity extends AppCompatActivity {
         blogsArrayList.clear();
 
         progressBar = new ProgressDialog(this);
-        progressBar.setTitle("Loading data");
+        progressBar.setTitle("Loading data...");
 
 
         loadPost();
@@ -75,6 +76,9 @@ public class DonationActivity extends AppCompatActivity {
     }
 
     private void loadPost() {
-
+        progressBar.show();
+        if (nextToken.equals("")){
+            Log.d(TAG, "loadPost: Next Page token is empty");
+        }
     }
 }
