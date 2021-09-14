@@ -78,7 +78,8 @@ public class DonationActivity extends AppCompatActivity {
     private void loadPost() {
         progressBar.show();
         if (nextToken.equals("")){
-            Log.d(TAG, "loadPost: Next Page token is empty");
+            Log.d(TAG, "loadPost: Next Page token is empty, no more pages");
+            url = "https://www.googleapis.com/blogger/v3/blogs/"+Constants.BLOG_ID+"/posts?key="+Constants.API_KEY+"";
         }
     }
 }
