@@ -14,8 +14,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.squareup.picasso.Picasso;
 
 import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
-import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
 import java.util.ArrayList;
@@ -55,7 +55,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
 //change content descrp from html format
 //        Document document = (Document) Jsoup.connect("http://www.example.com/").get();
-        Document document = (Document) Jsoup.parse(contents);
+      Document document =  Jsoup.parse(contents);
 
         try{
             Elements elements = document.select("img");
@@ -65,8 +65,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             holder.blogImg.setImageResource(R.drawable.main1);
             e.printStackTrace();
         }
-        holder.blogContent.setText(title);
-//        holder.blogTitle.setText(document.text());
+        holder.blogContent.setText(document.text());
+        holder.blogTitle.setText(title);
         holder.blogName.setText(authorName);
 
     }
