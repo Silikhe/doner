@@ -57,10 +57,17 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
 
 //change content descrp from html format
+//        Document document = (Document) Jsoup.connect("http://www.example.com/").get();
         Document document = (Document) Jsoup.parse(contents);
-        Elements elements = document.head().select("img");
-        String image = elements.get(0).attr("src");
-        Picasso .get()
+
+        try{
+            Elements elements = document.select("img");
+            String image = elements.get(0).attr("src");
+            Picasso .get().load(image).placeholder(R.drawable.main1).into(holder.blogImg);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
     }
 
     @Override
