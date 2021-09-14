@@ -45,10 +45,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         Blogs blogs = blogsArrayList.get(position);
 
 
-        holder.blogContent.setText(blogs.content);
-        holder.blogTitle.setText(blogs.title);
-        holder.blogName.setText(blogs.displayName);
-        holder.blogImg.setImageURI(Uri.parse(blogs.img_url));
+
 
         String authorName = blogs.getDisplayName();
         String contents = blogs.getContent();
@@ -65,8 +62,12 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             String image = elements.get(0).attr("src");
             Picasso .get().load(image).placeholder(R.drawable.main1).into(holder.blogImg);
         } catch (Exception e) {
+            holder.blogImg.setImageResource(R.drawable.main1);
             e.printStackTrace();
         }
+        holder.blogContent.setText(title);
+//        holder.blogTitle.setText(document.text());
+        holder.blogName.setText(authorName);
 
     }
 
