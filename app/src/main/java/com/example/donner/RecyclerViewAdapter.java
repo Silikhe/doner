@@ -12,7 +12,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import org.jsoup.Jsoup;
+import org.jsoup.select.Elements;
 import org.w3c.dom.Document;
+import org.w3c.dom.Element;
 
 import java.util.ArrayList;
 
@@ -35,7 +37,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RecyclerViewAdapter.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
 
         //get data
         Blogs blogs = blogsArrayList.get(position);
@@ -52,8 +54,10 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         String url = blogs.getImg_url();
 
 
-//change content descr from html formart
-        Document document = Jsoup.parse(contents)
+//change content descrp from html format
+        Document document = (Document) Jsoup.parse(contents);
+        Elements elements = document.head().select("img");
+        String image = elements.get(0).attr("src");
     }
 
     @Override
