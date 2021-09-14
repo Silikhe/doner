@@ -77,6 +77,15 @@
 47            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
 48            <!-- </intent-filter> -->
 49        </activity>
-50    </application>
-51
-52</manifest>
+50
+51        <provider
+51-->[com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/35086ceb76f1ad175cf35ed018c76ede/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+52            android:name="com.squareup.picasso.PicassoProvider"
+52-->[com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/35086ceb76f1ad175cf35ed018c76ede/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+53            android:authorities="com.example.donner.com.squareup.picasso"
+53-->[com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/35086ceb76f1ad175cf35ed018c76ede/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+54            android:exported="false" />
+54-->[com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/35086ceb76f1ad175cf35ed018c76ede/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+55    </application>
+56
+57</manifest>
