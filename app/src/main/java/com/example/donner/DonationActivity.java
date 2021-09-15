@@ -7,9 +7,14 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.app.ProgressDialog;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,13 +27,22 @@ public class DonationActivity extends AppCompatActivity {
 //            "Yvonne Donations"
 //    };
 
+    private Button btn_load;
+    private String url = "";
+    private String nextToken = "";
+    private ArrayList<Blogs> blogsArrayList;
+    private ProgressDialog progressBar;
+//    private RecyclerViewAdapter
+
+    private static final String TAG = "MAIN_TAG";
     RecyclerView recyclerView;
-    ArrayList<Blogs> blogsArrayList;
+//    ArrayList<Blogs> blogsArrayList;
     RecyclerViewAdapter recyclerViewAdapter;
     String title;
     String displayName;
     String img_url;
     String content;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,10 +59,27 @@ public class DonationActivity extends AppCompatActivity {
         recyclerView.setAdapter(recyclerViewAdapter);
 
 
+        btn_load = findViewById(R.id.btn_load);
 
+        blogsArrayList = new ArrayList<>();
+        blogsArrayList.clear();
+
+        progressBar = new ProgressDialog(this);
+        progressBar.setTitle("Loading data...");
+
+
+        loadPost();
 //        mListView = (ListView) findViewById(R.id.listview);
 //        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, donations);
 //        mListView.setAdapter(adapter);
 
+    }
+
+    private void loadPost() {
+        progressBar.show();
+        if (nextToken.equals("")){
+            Log.d(TAG, "loadPost: Next Page token is empty, no more pages");
+            url = "https://www.googleapis.com/blogger/v3/blogs/"+Constants.BLOG_ID+"/posts?key="+Constants.API_KEY+"";
+        }
     }
 }

@@ -1935,6 +1935,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btn_load
 id btn_login
 id buttonPanel
 id cache_measures
