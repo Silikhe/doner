@@ -1,21 +1,21 @@
+com/example/donner/Blogs.java
+ com.example.donner.Blogs
+com/example/donner/Constants.java
+ com.example.donner.Constants
+com/example/donner/BuildConfig.java
+ com.example.donner.BuildConfig
+com/example/donner/MainActivity.java
+ com.example.donner.MainActivity
+com/example/donner/Blog_items.java
+ com.example.donner.Blog_items
+com/example/donner/DonationActivity.java
+ com.example.donner.DonationActivity
 com/example/donner/RecyclerViewAdapter.java
  com.example.donner.RecyclerViewAdapter
  com.example.donner.RecyclerViewAdapter$ViewHolder
-com/example/donner/Constants.java
- com.example.donner.Constants
-com/example/donner/Blog_items.java
- com.example.donner.Blog_items
-com/example/donner/BuildConfig.java
- com.example.donner.BuildConfig
-com/example/donner/Blogs.java
- com.example.donner.Blogs
-com/example/donner/DonationActivity.java
- com.example.donner.DonationActivity
 com/example/donner/SplashScreenActivity.java
  com.example.donner.SplashScreenActivity
  com.example.donner.SplashScreenActivity$1
-com/example/donner/MainActivity.java
- com.example.donner.MainActivity
 com/example/donner/LoginActivity.java
  com.example.donner.LoginActivity
  com.example.donner.LoginActivity$1

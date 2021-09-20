@@ -24,6 +24,10 @@
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_ic_baseline_notifications_none_24.xml.flat",
+        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/ic_baseline_notifications_none_24.xml"
+    },
+    {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/layout_activity_login.xml.flat",
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/layout/activity_login.xml"
     },

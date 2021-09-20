@@ -1829,6 +1829,7 @@ drawable design_snackbar_background
 drawable et_custom
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_baseline_notifications_none_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -1975,7 +1976,6 @@ id blogContent
 id blogImg
 id blogName
 id blogTile
-id blogs_recycler
 id bottom
 id bounce
 id bounceBoth
@@ -1986,7 +1986,6 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id btn_load
 id btn_login
 id btn_sign
 id btn_toSignup
@@ -2110,6 +2109,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id imageView3
 id imgSign
 id immediateStop
@@ -2341,6 +2341,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toolbar
 id top
 id topPanel
 id touch_outside
@@ -2352,6 +2353,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_home
 id unchecked
 id uniform
 id unlabeled

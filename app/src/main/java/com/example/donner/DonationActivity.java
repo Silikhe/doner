@@ -28,21 +28,21 @@ public class DonationActivity extends AppCompatActivity {
 //            "Yvonne Donations"
 //    };
 
-    private Button btn_load;
-    private String url = "";
-    private String nextToken = "";
-    private ArrayList<Blogs> blogsArrayList;
-    private ProgressDialog progressBar;
-//    private RecyclerViewAdapter
-
-    private static final String TAG = "MAIN_TAG";
-    RecyclerView recyclerView;
-//    ArrayList<Blogs> blogsArrayList;
-    RecyclerViewAdapter recyclerViewAdapter;
-    String title;
-    String displayName;
-    String img_url;
-    String content;
+//    private Button btn_load;
+//    private String url = "";
+//    private String nextToken = "";
+//    private ArrayList<Blogs> blogsArrayList;
+//    private ProgressDialog progressBar;
+////    private RecyclerViewAdapter
+//
+//    private static final String TAG = "MAIN_TAG";
+//    RecyclerView recyclerView;
+////    ArrayList<Blogs> blogsArrayList;
+//    RecyclerViewAdapter recyclerViewAdapter;
+//    String title;
+//    String displayName;
+//    String img_url;
+//    String content;
 
 
     @Override
@@ -50,40 +50,40 @@ public class DonationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_donation);
 
-        recyclerView = findViewById(R.id.blogs_recycler);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        recyclerView.setHasFixedSize(true);
-
-        blogsArrayList = new ArrayList<>();
-
-        recyclerViewAdapter = new RecyclerViewAdapter(this, blogsArrayList);
-        recyclerView.setAdapter(recyclerViewAdapter);
-
-
-        btn_load = findViewById(R.id.btn_load);
-
-        blogsArrayList = new ArrayList<>();
-        blogsArrayList.clear();
-
-        progressBar = new ProgressDialog(this);
-        progressBar.setTitle("Loading data blogs...");
+//        recyclerView = findViewById(R.id.blogs_recycler);
+//        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+//        recyclerView.setHasFixedSize(true);
+//
+//        blogsArrayList = new ArrayList<>();
+//
+//        recyclerViewAdapter = new RecyclerViewAdapter(this, blogsArrayList);
+//        recyclerView.setAdapter(recyclerViewAdapter);
 
 
-        loadPost();
+//        btn_load = findViewById(R.id.btn_load);
+
+//        blogsArrayList = new ArrayList<>();
+//        blogsArrayList.clear();
+//
+//        progressBar = new ProgressDialog(this);
+//        progressBar.setTitle("Loading data blogs...");
+
+
+//        loadPost();
 //        mListView = (ListView) findViewById(R.id.listview);
 //        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, donations);
 //        mListView.setAdapter(adapter);
 
-        Intent intent = getIntent();
-        String name = intent.getStringExtra("username");
+//        Intent intent = getIntent();
+//        String name = intent.getStringExtra("username");
 
     }
 
-    private void loadPost() {
-        progressBar.show();
-        if (nextToken.equals("")){
-            Log.d(TAG, "loadPost: Next Page token is empty, no more pages");
-            url = "https://www.googleapis.com/blogger/v3/blogs/"+Constants.BLOG_ID+"/posts?key="+Constants.API_KEY+"";
-        }
-    }
+//    private void loadPost() {
+//        progressBar.show();
+//        if (nextToken.equals("")){
+//            Log.d(TAG, "loadPost: Next Page token is empty, no more pages");
+//            url = "https://www.googleapis.com/blogger/v3/blogs/"+Constants.BLOG_ID+"/posts?key="+Constants.API_KEY+"";
+//        }
+//    }
 }
