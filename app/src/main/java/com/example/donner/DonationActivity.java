@@ -9,6 +9,7 @@ import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.ArrayAdapter;
@@ -65,13 +66,16 @@ public class DonationActivity extends AppCompatActivity {
         blogsArrayList.clear();
 
         progressBar = new ProgressDialog(this);
-        progressBar.setTitle("Loading data...");
+        progressBar.setTitle("Loading data blogs...");
 
 
         loadPost();
 //        mListView = (ListView) findViewById(R.id.listview);
 //        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, donations);
 //        mListView.setAdapter(adapter);
+
+        Intent intent = getIntent();
+        String name = intent.getStringExtra("username");
 
     }
 

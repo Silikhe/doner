@@ -6,20 +6,21 @@
     tools:context=".LoginActivity">
 
     <ImageView
-        android:id="@+id/avater"
         android:layout_width="250dp"
-        android:layout_height="250dp"
+        android:layout_height="300dp"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-31dp"
         android:src="@drawable/logo" />
 
     <TextView
-        android:id="@+id/logintxt"
         android:layout_width="wrap_content"
+
         android:layout_height="wrap_content"
         android:layout_above="@+id/et_email"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="-31dp"
         android:layout_marginBottom="20dp"
-        android:text="Login"
+        android:text="Login to continue"
         android:textColor="@color/yellow"
         android:textSize="23sp" />
 
@@ -70,27 +71,25 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_login"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="17dp"
         android:clickable="false"
-        android:text="Already have an account?"
-        android:textSize="15sp" />
+        android:text="@string/login"
+        android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/infoTxtCredits"
-        android:layout_width="104dp"
-        android:layout_height="17dp"
+    <Button
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:id="@+id/btn_toSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/btn_login"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="19dp"
-        android:layout_marginEnd="83dp"
-        android:layout_marginBottom="236dp"
+        android:layout_marginStart="0dp"
         android:layout_toEndOf="@+id/swipeRight"
-        android:autoLink="web"
-        android:linksClickable="true"
-        android:text="SignUp"
-        android:textColor="@color/yellow"></TextView>
+        android:text="Sign Up"
+        android:onClick="signUp"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/yellow"
+        android:textSize="15sp"
+         />
 
 </RelativeLayout>

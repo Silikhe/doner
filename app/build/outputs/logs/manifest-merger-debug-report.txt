@@ -1,214 +1,378 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-45:12
-MERGED from [com.google.android.material:material:1.4.0] /home/moringa/.gradle/caches/transforms-3/25012fcc08d4c5cf5a2844c1a21a6fbe/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/moringa/.gradle/caches/transforms-3/603d5b366cec0e2b4f7a40320b7dc059/transformed/constraintlayout-2.1.0/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.3.1] /home/moringa/.gradle/caches/transforms-3/4ecd700c773cf5624732e3577602f1ea/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.volley:volley:1.2.1] /home/moringa/.gradle/caches/transforms-3/83b085bf5ac15b844df7a4b3f10d7d50/transformed/jetified-volley-1.2.1/AndroidManifest.xml:2:1-7:12
-MERGED from [com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/35086ceb76f1ad175cf35ed018c76ede/transformed/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/moringa/.gradle/caches/transforms-3/d8e35720d387af23b8661e2c3d29cdaa/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.3.6] /home/moringa/.gradle/caches/transforms-3/ee0550e8848c5279ef1306690d07508f/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.4] /home/moringa/.gradle/caches/transforms-3/a2fec87436ed4b48e2cd27f2bec00bd8/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/moringa/.gradle/caches/transforms-3/1a721783f33f0b0f141ece40123d930b/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/moringa/.gradle/caches/transforms-3/9e5bac1f89003abf622e3422923228db/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/moringa/.gradle/caches/transforms-3/daf60890667c2c1f4f7951bda1ccd740/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/moringa/.gradle/caches/transforms-3/d09ea9aedca029a896589844b66e8851/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] /home/moringa/.gradle/caches/transforms-3/48c63f3106ffaa61ce348f6ba5cb615c/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/moringa/.gradle/caches/transforms-3/f0fe3706260b3bce929f3dd639e33b7e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/moringa/.gradle/caches/transforms-3/de5a7dc1c81a89f7e31dc782229122df/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/moringa/.gradle/caches/transforms-3/780765cea0c567bec6ca8db99cd43cba/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/moringa/.gradle/caches/transforms-3/22a51f44cdda660ee1b80324ead41660/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /home/moringa/.gradle/caches/transforms-3/cc799678192709bceae81fa20a37187c/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/moringa/.gradle/caches/transforms-3/b4790aa1caca6e7d9bde0bf1adfc442a/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] /home/moringa/.gradle/caches/transforms-3/c737135e2039c6aa4422151570c825bf/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.5.0] /home/moringa/.gradle/caches/transforms-3/255d63c0f9f8f5d12ab3191ffb377750/transformed/core-1.5.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/moringa/.gradle/caches/transforms-3/6b80c278120ff42ff6ece3f9d926c639/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/moringa/.gradle/caches/transforms-3/c2a2b216c41ef64c23b5a2261da3c566/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] /home/moringa/.gradle/caches/transforms-3/467a835b52a179222c9cd595c4b15361/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/moringa/.gradle/caches/transforms-3/f25280aa28dd02b1b0fe5958898387a3/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/moringa/.gradle/caches/transforms-3/9f2676b1c0969ec8c1ba6828bf396548/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] /home/moringa/.gradle/caches/transforms-3/5a89849bfd38ecbffaf5b00436d2e3bd/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/moringa/.gradle/caches/transforms-3/7fbeb7461dd2446c0752921646218aaa/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/moringa/.gradle/caches/transforms-3/4f632648e53e556eed5f40f2824d9ac5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.tracing:tracing:1.0.0] /home/moringa/.gradle/caches/transforms-3/80c89437fc250e842b2f71e0d613c9ff/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/moringa/.gradle/caches/transforms-3/bc210aa728a4eeea33d4ed954c0cfcd1/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/moringa/.gradle/caches/transforms-3/b4df7864670f88d5668dedcb24fe690f/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/moringa/.gradle/caches/transforms-3/a1b15eaaf08fb20dd8d722ca164b4b9c/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/moringa/.gradle/caches/transforms-3/140757696eca7ec1efbdf7371a4acde0/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/moringa/.gradle/caches/transforms-3/989dfec6fc7a4daefb140f0c011fcef1/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/moringa/.gradle/caches/transforms-3/8ca7186ef83368b8549809152ed428ce/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /home/moringa/.gradle/caches/transforms-3/485578c608519582fc751ff2f7c88476/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/moringa/.gradle/caches/transforms-3/18e5cb54f886f7aa7e26ad4e22b3ac23/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-45:12
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-51:12
+MERGED from [com.google.android.material:material:1.4.0] /home/moringa/.gradle/caches/transforms-3/c2e76fb5e086b5c906002f45c03cd24a/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/moringa/.gradle/caches/transforms-3/c0f7869d4dd728111a89d7a770b58255/transformed/constraintlayout-2.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] /home/moringa/.gradle/caches/transforms-3/ccd6c517801f56e7200472775579e27c/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:15:1-38:12
+MERGED from [com.android.volley:volley:1.2.1] /home/moringa/.gradle/caches/transforms-3/07c8ede6e00cdf76f8d11ee81f43e2f4/transformed/jetified-volley-1.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/94d89058c67ff24ffccce9c1d6cfc1a7/transformed/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.firebase:firebase-analytics:19.0.1] /home/moringa/.gradle/caches/transforms-3/f53388471f3bdc2a9ea780b63367ff96/transformed/jetified-firebase-analytics-19.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:17:1-83:12
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] /home/moringa/.gradle/caches/transforms-3/f9aee0cda849501db64afde87fec0768/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/9dcc7c6d1afd317f42d3ab94fa2bea04/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/moringa/.gradle/caches/transforms-3/cc0c490645cb5c8ef7069804dff9c2ae/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /home/moringa/.gradle/caches/transforms-3/473b3bc2d803ac7436c939abbc1a6e43/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/moringa/.gradle/caches/transforms-3/045ee3e52baef22a6f354e1b63ce65b6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/moringa/.gradle/caches/transforms-3/8fd6eea0562aea14f3bc71e06ead11c9/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/moringa/.gradle/caches/transforms-3/d244694a7cf60b68f6360e6d4d149cbd/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/moringa/.gradle/caches/transforms-3/d39720dfd11c84abbb1765362ab7e280/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /home/moringa/.gradle/caches/transforms-3/9a37503f4125aeb8aff9eebad867370d/transformed/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/moringa/.gradle/caches/transforms-3/9917c1060ba2f79f3519a1b2bf642c2c/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.1] /home/moringa/.gradle/caches/transforms-3/276b9f39ff8a643158d3bab292c7df18/transformed/jetified-play-services-measurement-sdk-19.0.1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /home/moringa/.gradle/caches/transforms-3/69e03d23a05b4a47d522790844bcf9c2/transformed/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/moringa/.gradle/caches/transforms-3/4275f7466625097397615de4509de015/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /home/moringa/.gradle/caches/transforms-3/9e3ea9848b697e35b9d42c7f48a6b35f/transformed/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/moringa/.gradle/caches/transforms-3/0c40c890b077ac3a2327fb7774bd59e3/transformed/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/fe2f6e0f0a2885e1ee1439d9b02f4149/transformed/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.1] /home/moringa/.gradle/caches/transforms-3/b13830906aa0a3f4fcb96c655bea75b9/transformed/jetified-play-services-measurement-base-19.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/moringa/.gradle/caches/transforms-3/ec213062c4a9823a024f0488acc91aa5/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/moringa/.gradle/caches/transforms-3/ef6b4434b988b611508623c245004ffd/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] /home/moringa/.gradle/caches/transforms-3/6adff63397c1ac50e331d47bdf613af2/transformed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/moringa/.gradle/caches/transforms-3/47412af5d8349bb5a27bf7b522242cae/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /home/moringa/.gradle/caches/transforms-3/d0a79b936e419dd387b875699ee4b62c/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/moringa/.gradle/caches/transforms-3/8ada507a1dd724fe6991d5ce94b4cd54/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.0.0] /home/moringa/.gradle/caches/transforms-3/8cc4c6bdd8fb3cd34c63326ead0f3c9e/transformed/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/moringa/.gradle/caches/transforms-3/6fb69af6583698668532bf0fd35caf8f/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/moringa/.gradle/caches/transforms-3/9ae11d25ffc96a1bf108d9cb11000878/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/moringa/.gradle/caches/transforms-3/8eea484709a67dddc1ab9ae1893abd2b/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/moringa/.gradle/caches/transforms-3/8a7b9e471f23c1540e322373ba839543/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/moringa/.gradle/caches/transforms-3/270f36836ed73a45dbff76b561bed474/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/moringa/.gradle/caches/transforms-3/781dd23490527cfee6df6b2cc663fc9a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/moringa/.gradle/caches/transforms-3/fb357798e0a06fc931bb8f4dac764065/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/moringa/.gradle/caches/transforms-3/f0e1dca14b5ed3fe159b41cdf0cbf790/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/moringa/.gradle/caches/transforms-3/d7d271375ded6eff316edd27ceb0072d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/moringa/.gradle/caches/transforms-3/21aff1fa3790b705ad8e19b1c47e0d56/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/moringa/.gradle/caches/transforms-3/52b8a03cfc4c20a0c9c78819018423c4/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/moringa/.gradle/caches/transforms-3/fbf631149de996a78c67c939d36f7655/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/moringa/.gradle/caches/transforms-3/cd32edd474bb2a02875747f09057a6e3/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/moringa/.gradle/caches/transforms-3/634062af7ba6565b6ce63935447f68fe/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/moringa/.gradle/caches/transforms-3/343c797141be332cf662fb965493c0b7/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] /home/moringa/.gradle/caches/transforms-3/1c82df0e58fbd0ba966b0ae0d34659c1/transformed/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/moringa/.gradle/caches/transforms-3/3727d41d965d68ffe5020a108ad2f770/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/moringa/.gradle/caches/transforms-3/60c29e3303dcf5243bee8bf4b7c5e277/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/moringa/.gradle/caches/transforms-3/fbb142ee1815151d8084e34648d018ac/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/moringa/.gradle/caches/transforms-3/565cca9de196af3b5c3cf847658b2a4e/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/moringa/.gradle/caches/transforms-3/0ec9a63f72234c6a7cb0667c5156537a/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/moringa/.gradle/caches/transforms-3/b5a1dde354f7afc013622ec6eac7dc84/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/moringa/.gradle/caches/transforms-3/8f2ac2f66ecbb08db60eaf93a9f6f260/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/moringa/.gradle/caches/transforms-3/8d4069d8883cd35818f5c173a3837002/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/moringa/.gradle/caches/transforms-3/82f0742619c93bff749e298ff0daa035/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/moringa/.gradle/caches/transforms-3/4a2dc31dca41ceabe72d8efa19d292bf/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/moringa/.gradle/caches/transforms-3/59b41095d2f1061113aab46acc35c68a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/moringa/.gradle/caches/transforms-3/cdbb0a5ed9226eb4b8198249161f9ff2/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/moringa/.gradle/caches/transforms-3/869e87640d2ab98ed21d3c10b182f739/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/moringa/.gradle/caches/transforms-3/9692f4eff85761d20785aa5053f9ebcb/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/moringa/.gradle/caches/transforms-3/d3f87aa4861bbafadab8253cbbec58bc/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/moringa/.gradle/caches/transforms-3/783b035d32ce5be15ab468001bd7362a/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/moringa/.gradle/caches/transforms-3/84046498be48793439a4476136a93af1/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/moringa/.gradle/caches/transforms-3/9ccd4574ebca9c86103f7bd859ba1dfd/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/moringa/.gradle/caches/transforms-3/07ee67b71d61179709c3749373524324/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.28.0] /home/moringa/.gradle/caches/transforms-3/a1b6a2558cae7a50244f7d82767cb4ec/transformed/jetified-grpc-android-1.28.0/AndroidManifest.xml:2:1-13:12
+INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-51:12
 	package
 		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:4:5-33
 		INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml
 		INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-45:12
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-51:12
 		INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-45:12
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-51:12
 		INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:11-69
-application
-ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:6:5-43:19
-MERGED from [com.google.android.material:material:1.4.0] /home/moringa/.gradle/caches/transforms-3/25012fcc08d4c5cf5a2844c1a21a6fbe/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.4.0] /home/moringa/.gradle/caches/transforms-3/25012fcc08d4c5cf5a2844c1a21a6fbe/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/moringa/.gradle/caches/transforms-3/603d5b366cec0e2b4f7a40320b7dc059/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/moringa/.gradle/caches/transforms-3/603d5b366cec0e2b4f7a40320b7dc059/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
-MERGED from [com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/35086ceb76f1ad175cf35ed018c76ede/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
-MERGED from [com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/35086ceb76f1ad175cf35ed018c76ede/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
-MERGED from [androidx.core:core:1.5.0] /home/moringa/.gradle/caches/transforms-3/255d63c0f9f8f5d12ab3191ffb377750/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.5.0] /home/moringa/.gradle/caches/transforms-3/255d63c0f9f8f5d12ab3191ffb377750/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/moringa/.gradle/caches/transforms-3/4f632648e53e556eed5f40f2824d9ac5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/moringa/.gradle/caches/transforms-3/4f632648e53e556eed5f40f2824d9ac5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-	android:appComponentFactory
-		ADDED from [androidx.core:core:1.5.0] /home/moringa/.gradle/caches/transforms-3/255d63c0f9f8f5d12ab3191ffb377750/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
-	android:supportsRtl
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:11:9-35
-	android:label
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:9:9-41
-	android:roundIcon
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:10:9-54
-	android:icon
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:8:9-38
-	android:allowBackup
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:7:9-35
-	android:theme
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:12:9-44
-activity#com.example.donner.Blog_items
-ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:13:9-15:39
-	android:exported
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:15:13-36
+uses-permission#android.permission.INTERNET
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] /home/moringa/.gradle/caches/transforms-3/f9aee0cda849501db64afde87fec0768/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] /home/moringa/.gradle/caches/transforms-3/f9aee0cda849501db64afde87fec0768/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:14:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/9dcc7c6d1afd317f42d3ab94fa2bea04/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/9dcc7c6d1afd317f42d3ab94fa2bea04/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/moringa/.gradle/caches/transforms-3/045ee3e52baef22a6f354e1b63ce65b6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/moringa/.gradle/caches/transforms-3/045ee3e52baef22a6f354e1b63ce65b6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /home/moringa/.gradle/caches/transforms-3/9e3ea9848b697e35b9d42c7f48a6b35f/transformed/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /home/moringa/.gradle/caches/transforms-3/9e3ea9848b697e35b9d42c7f48a6b35f/transformed/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/fe2f6e0f0a2885e1ee1439d9b02f4149/transformed/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/fe2f6e0f0a2885e1ee1439d9b02f4149/transformed/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:14:13-39
-activity#com.example.donner.SplashScreenActivity
-ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:16:9-24:20
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:6:22-64
+application
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:8:5-49:19
+MERGED from [com.google.android.material:material:1.4.0] /home/moringa/.gradle/caches/transforms-3/c2e76fb5e086b5c906002f45c03cd24a/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /home/moringa/.gradle/caches/transforms-3/c2e76fb5e086b5c906002f45c03cd24a/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/moringa/.gradle/caches/transforms-3/c0f7869d4dd728111a89d7a770b58255/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/moringa/.gradle/caches/transforms-3/c0f7869d4dd728111a89d7a770b58255/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:28:5-36:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/94d89058c67ff24ffccce9c1d6cfc1a7/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/94d89058c67ff24ffccce9c1d6cfc1a7/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.firebase:firebase-analytics:19.0.1] /home/moringa/.gradle/caches/transforms-3/f53388471f3bdc2a9ea780b63367ff96/transformed/jetified-firebase-analytics-19.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:19.0.1] /home/moringa/.gradle/caches/transforms-3/f53388471f3bdc2a9ea780b63367ff96/transformed/jetified-firebase-analytics-19.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] /home/moringa/.gradle/caches/transforms-3/f9aee0cda849501db64afde87fec0768/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] /home/moringa/.gradle/caches/transforms-3/f9aee0cda849501db64afde87fec0768/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/9dcc7c6d1afd317f42d3ab94fa2bea04/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/9dcc7c6d1afd317f42d3ab94fa2bea04/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/moringa/.gradle/caches/transforms-3/cc0c490645cb5c8ef7069804dff9c2ae/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/moringa/.gradle/caches/transforms-3/cc0c490645cb5c8ef7069804dff9c2ae/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /home/moringa/.gradle/caches/transforms-3/473b3bc2d803ac7436c939abbc1a6e43/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /home/moringa/.gradle/caches/transforms-3/473b3bc2d803ac7436c939abbc1a6e43/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/moringa/.gradle/caches/transforms-3/045ee3e52baef22a6f354e1b63ce65b6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/moringa/.gradle/caches/transforms-3/045ee3e52baef22a6f354e1b63ce65b6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/moringa/.gradle/caches/transforms-3/d39720dfd11c84abbb1765362ab7e280/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/moringa/.gradle/caches/transforms-3/d39720dfd11c84abbb1765362ab7e280/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/moringa/.gradle/caches/transforms-3/9917c1060ba2f79f3519a1b2bf642c2c/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/moringa/.gradle/caches/transforms-3/9917c1060ba2f79f3519a1b2bf642c2c/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.1] /home/moringa/.gradle/caches/transforms-3/276b9f39ff8a643158d3bab292c7df18/transformed/jetified-play-services-measurement-sdk-19.0.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.1] /home/moringa/.gradle/caches/transforms-3/276b9f39ff8a643158d3bab292c7df18/transformed/jetified-play-services-measurement-sdk-19.0.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/moringa/.gradle/caches/transforms-3/4275f7466625097397615de4509de015/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/moringa/.gradle/caches/transforms-3/4275f7466625097397615de4509de015/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /home/moringa/.gradle/caches/transforms-3/9e3ea9848b697e35b9d42c7f48a6b35f/transformed/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /home/moringa/.gradle/caches/transforms-3/9e3ea9848b697e35b9d42c7f48a6b35f/transformed/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/moringa/.gradle/caches/transforms-3/0c40c890b077ac3a2327fb7774bd59e3/transformed/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/moringa/.gradle/caches/transforms-3/0c40c890b077ac3a2327fb7774bd59e3/transformed/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.1] /home/moringa/.gradle/caches/transforms-3/b13830906aa0a3f4fcb96c655bea75b9/transformed/jetified-play-services-measurement-base-19.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.1] /home/moringa/.gradle/caches/transforms-3/b13830906aa0a3f4fcb96c655bea75b9/transformed/jetified-play-services-measurement-base-19.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/moringa/.gradle/caches/transforms-3/ec213062c4a9823a024f0488acc91aa5/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/moringa/.gradle/caches/transforms-3/ec213062c4a9823a024f0488acc91aa5/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/moringa/.gradle/caches/transforms-3/ef6b4434b988b611508623c245004ffd/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/moringa/.gradle/caches/transforms-3/ef6b4434b988b611508623c245004ffd/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] /home/moringa/.gradle/caches/transforms-3/6adff63397c1ac50e331d47bdf613af2/transformed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] /home/moringa/.gradle/caches/transforms-3/6adff63397c1ac50e331d47bdf613af2/transformed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.5.0] /home/moringa/.gradle/caches/transforms-3/1c82df0e58fbd0ba966b0ae0d34659c1/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /home/moringa/.gradle/caches/transforms-3/1c82df0e58fbd0ba966b0ae0d34659c1/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/moringa/.gradle/caches/transforms-3/4a2dc31dca41ceabe72d8efa19d292bf/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/moringa/.gradle/caches/transforms-3/4a2dc31dca41ceabe72d8efa19d292bf/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /home/moringa/.gradle/caches/transforms-3/1c82df0e58fbd0ba966b0ae0d34659c1/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:10:9-38
+	android:allowBackup
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:14:9-44
+	android:usesCleartextTraffic
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:15:9-44
+activity#com.example.donner.SignupActivity
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:16:9-18:39
 	android:exported
 		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:18:13-36
 	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:17:13-49
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:17:13-43
+activity#com.example.donner.Blog_items
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:19:9-21:39
+	android:exported
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:21:13-36
+	android:name
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:20:13-39
+activity#com.example.donner.SplashScreenActivity
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:22:9-30:20
+	android:exported
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:24:13-36
+	android:name
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:23:13-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:19:13-23:29
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:22:17-77
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:22:27-74
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:28:27-74
 activity#com.example.donner.DonationActivity
-ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:25:9-27:39
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:31:9-33:39
 	android:exported
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:27:13-36
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:33:13-36
 	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:26:13-45
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:32:13-45
 activity#com.example.donner.LoginActivity
-ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:28:9-31:45
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:34:9-37:45
 	android:exported
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:30:13-36
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:36:13-36
 	tools:ignore
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:31:13-42
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:37:13-42
 	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:29:13-42
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:35:13-42
 activity#com.example.donner.MainActivity
-ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:32:9-42:20
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:38:9-48:20
 	android:exported
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:34:13-36
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:40:13-36
 	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:33:13-41
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:39:13-41
 uses-sdk
 INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml
 INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.4.0] /home/moringa/.gradle/caches/transforms-3/25012fcc08d4c5cf5a2844c1a21a6fbe/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.4.0] /home/moringa/.gradle/caches/transforms-3/25012fcc08d4c5cf5a2844c1a21a6fbe/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/moringa/.gradle/caches/transforms-3/603d5b366cec0e2b4f7a40320b7dc059/transformed/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/moringa/.gradle/caches/transforms-3/603d5b366cec0e2b4f7a40320b7dc059/transformed/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.3.1] /home/moringa/.gradle/caches/transforms-3/4ecd700c773cf5624732e3577602f1ea/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.3.1] /home/moringa/.gradle/caches/transforms-3/4ecd700c773cf5624732e3577602f1ea/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.android.volley:volley:1.2.1] /home/moringa/.gradle/caches/transforms-3/83b085bf5ac15b844df7a4b3f10d7d50/transformed/jetified-volley-1.2.1/AndroidManifest.xml:5:5-43
-MERGED from [com.android.volley:volley:1.2.1] /home/moringa/.gradle/caches/transforms-3/83b085bf5ac15b844df7a4b3f10d7d50/transformed/jetified-volley-1.2.1/AndroidManifest.xml:5:5-43
-MERGED from [com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/35086ceb76f1ad175cf35ed018c76ede/transformed/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/35086ceb76f1ad175cf35ed018c76ede/transformed/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/moringa/.gradle/caches/transforms-3/d8e35720d387af23b8661e2c3d29cdaa/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/moringa/.gradle/caches/transforms-3/d8e35720d387af23b8661e2c3d29cdaa/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] /home/moringa/.gradle/caches/transforms-3/ee0550e8848c5279ef1306690d07508f/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] /home/moringa/.gradle/caches/transforms-3/ee0550e8848c5279ef1306690d07508f/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] /home/moringa/.gradle/caches/transforms-3/a2fec87436ed4b48e2cd27f2bec00bd8/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] /home/moringa/.gradle/caches/transforms-3/a2fec87436ed4b48e2cd27f2bec00bd8/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/moringa/.gradle/caches/transforms-3/1a721783f33f0b0f141ece40123d930b/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/moringa/.gradle/caches/transforms-3/1a721783f33f0b0f141ece40123d930b/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/moringa/.gradle/caches/transforms-3/9e5bac1f89003abf622e3422923228db/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/moringa/.gradle/caches/transforms-3/9e5bac1f89003abf622e3422923228db/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/moringa/.gradle/caches/transforms-3/daf60890667c2c1f4f7951bda1ccd740/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/moringa/.gradle/caches/transforms-3/daf60890667c2c1f4f7951bda1ccd740/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/moringa/.gradle/caches/transforms-3/d09ea9aedca029a896589844b66e8851/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/moringa/.gradle/caches/transforms-3/d09ea9aedca029a896589844b66e8851/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] /home/moringa/.gradle/caches/transforms-3/48c63f3106ffaa61ce348f6ba5cb615c/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /home/moringa/.gradle/caches/transforms-3/48c63f3106ffaa61ce348f6ba5cb615c/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/moringa/.gradle/caches/transforms-3/f0fe3706260b3bce929f3dd639e33b7e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/moringa/.gradle/caches/transforms-3/f0fe3706260b3bce929f3dd639e33b7e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/moringa/.gradle/caches/transforms-3/de5a7dc1c81a89f7e31dc782229122df/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/moringa/.gradle/caches/transforms-3/de5a7dc1c81a89f7e31dc782229122df/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/moringa/.gradle/caches/transforms-3/780765cea0c567bec6ca8db99cd43cba/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/moringa/.gradle/caches/transforms-3/780765cea0c567bec6ca8db99cd43cba/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/moringa/.gradle/caches/transforms-3/22a51f44cdda660ee1b80324ead41660/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/moringa/.gradle/caches/transforms-3/22a51f44cdda660ee1b80324ead41660/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/moringa/.gradle/caches/transforms-3/cc799678192709bceae81fa20a37187c/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/moringa/.gradle/caches/transforms-3/cc799678192709bceae81fa20a37187c/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/moringa/.gradle/caches/transforms-3/b4790aa1caca6e7d9bde0bf1adfc442a/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/moringa/.gradle/caches/transforms-3/b4790aa1caca6e7d9bde0bf1adfc442a/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] /home/moringa/.gradle/caches/transforms-3/c737135e2039c6aa4422151570c825bf/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/moringa/.gradle/caches/transforms-3/c737135e2039c6aa4422151570c825bf/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.5.0] /home/moringa/.gradle/caches/transforms-3/255d63c0f9f8f5d12ab3191ffb377750/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.5.0] /home/moringa/.gradle/caches/transforms-3/255d63c0f9f8f5d12ab3191ffb377750/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/moringa/.gradle/caches/transforms-3/6b80c278120ff42ff6ece3f9d926c639/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/moringa/.gradle/caches/transforms-3/6b80c278120ff42ff6ece3f9d926c639/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/moringa/.gradle/caches/transforms-3/c2a2b216c41ef64c23b5a2261da3c566/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/moringa/.gradle/caches/transforms-3/c2a2b216c41ef64c23b5a2261da3c566/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /home/moringa/.gradle/caches/transforms-3/467a835b52a179222c9cd595c4b15361/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /home/moringa/.gradle/caches/transforms-3/467a835b52a179222c9cd595c4b15361/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/moringa/.gradle/caches/transforms-3/f25280aa28dd02b1b0fe5958898387a3/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/moringa/.gradle/caches/transforms-3/f25280aa28dd02b1b0fe5958898387a3/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/moringa/.gradle/caches/transforms-3/9f2676b1c0969ec8c1ba6828bf396548/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/moringa/.gradle/caches/transforms-3/9f2676b1c0969ec8c1ba6828bf396548/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] /home/moringa/.gradle/caches/transforms-3/5a89849bfd38ecbffaf5b00436d2e3bd/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /home/moringa/.gradle/caches/transforms-3/5a89849bfd38ecbffaf5b00436d2e3bd/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/moringa/.gradle/caches/transforms-3/7fbeb7461dd2446c0752921646218aaa/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/moringa/.gradle/caches/transforms-3/7fbeb7461dd2446c0752921646218aaa/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/moringa/.gradle/caches/transforms-3/4f632648e53e556eed5f40f2824d9ac5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/moringa/.gradle/caches/transforms-3/4f632648e53e556eed5f40f2824d9ac5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /home/moringa/.gradle/caches/transforms-3/80c89437fc250e842b2f71e0d613c9ff/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /home/moringa/.gradle/caches/transforms-3/80c89437fc250e842b2f71e0d613c9ff/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/moringa/.gradle/caches/transforms-3/bc210aa728a4eeea33d4ed954c0cfcd1/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/moringa/.gradle/caches/transforms-3/bc210aa728a4eeea33d4ed954c0cfcd1/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/moringa/.gradle/caches/transforms-3/b4df7864670f88d5668dedcb24fe690f/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/moringa/.gradle/caches/transforms-3/b4df7864670f88d5668dedcb24fe690f/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/moringa/.gradle/caches/transforms-3/a1b15eaaf08fb20dd8d722ca164b4b9c/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/moringa/.gradle/caches/transforms-3/a1b15eaaf08fb20dd8d722ca164b4b9c/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/moringa/.gradle/caches/transforms-3/140757696eca7ec1efbdf7371a4acde0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/moringa/.gradle/caches/transforms-3/140757696eca7ec1efbdf7371a4acde0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/moringa/.gradle/caches/transforms-3/989dfec6fc7a4daefb140f0c011fcef1/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/moringa/.gradle/caches/transforms-3/989dfec6fc7a4daefb140f0c011fcef1/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/moringa/.gradle/caches/transforms-3/8ca7186ef83368b8549809152ed428ce/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/moringa/.gradle/caches/transforms-3/8ca7186ef83368b8549809152ed428ce/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/moringa/.gradle/caches/transforms-3/485578c608519582fc751ff2f7c88476/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/moringa/.gradle/caches/transforms-3/485578c608519582fc751ff2f7c88476/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/moringa/.gradle/caches/transforms-3/18e5cb54f886f7aa7e26ad4e22b3ac23/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/moringa/.gradle/caches/transforms-3/18e5cb54f886f7aa7e26ad4e22b3ac23/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0] /home/moringa/.gradle/caches/transforms-3/c2e76fb5e086b5c906002f45c03cd24a/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /home/moringa/.gradle/caches/transforms-3/c2e76fb5e086b5c906002f45c03cd24a/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/moringa/.gradle/caches/transforms-3/c0f7869d4dd728111a89d7a770b58255/transformed/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/moringa/.gradle/caches/transforms-3/c0f7869d4dd728111a89d7a770b58255/transformed/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /home/moringa/.gradle/caches/transforms-3/ccd6c517801f56e7200472775579e27c/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /home/moringa/.gradle/caches/transforms-3/ccd6c517801f56e7200472775579e27c/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.android.volley:volley:1.2.1] /home/moringa/.gradle/caches/transforms-3/07c8ede6e00cdf76f8d11ee81f43e2f4/transformed/jetified-volley-1.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] /home/moringa/.gradle/caches/transforms-3/07c8ede6e00cdf76f8d11ee81f43e2f4/transformed/jetified-volley-1.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/94d89058c67ff24ffccce9c1d6cfc1a7/transformed/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/94d89058c67ff24ffccce9c1d6cfc1a7/transformed/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:19.0.1] /home/moringa/.gradle/caches/transforms-3/f53388471f3bdc2a9ea780b63367ff96/transformed/jetified-firebase-analytics-19.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:19.0.1] /home/moringa/.gradle/caches/transforms-3/f53388471f3bdc2a9ea780b63367ff96/transformed/jetified-firebase-analytics-19.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] /home/moringa/.gradle/caches/transforms-3/f9aee0cda849501db64afde87fec0768/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] /home/moringa/.gradle/caches/transforms-3/f9aee0cda849501db64afde87fec0768/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/9dcc7c6d1afd317f42d3ab94fa2bea04/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/9dcc7c6d1afd317f42d3ab94fa2bea04/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/moringa/.gradle/caches/transforms-3/cc0c490645cb5c8ef7069804dff9c2ae/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/moringa/.gradle/caches/transforms-3/cc0c490645cb5c8ef7069804dff9c2ae/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /home/moringa/.gradle/caches/transforms-3/473b3bc2d803ac7436c939abbc1a6e43/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /home/moringa/.gradle/caches/transforms-3/473b3bc2d803ac7436c939abbc1a6e43/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/moringa/.gradle/caches/transforms-3/045ee3e52baef22a6f354e1b63ce65b6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/moringa/.gradle/caches/transforms-3/045ee3e52baef22a6f354e1b63ce65b6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/moringa/.gradle/caches/transforms-3/8fd6eea0562aea14f3bc71e06ead11c9/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/moringa/.gradle/caches/transforms-3/8fd6eea0562aea14f3bc71e06ead11c9/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/moringa/.gradle/caches/transforms-3/d244694a7cf60b68f6360e6d4d149cbd/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/moringa/.gradle/caches/transforms-3/d244694a7cf60b68f6360e6d4d149cbd/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/moringa/.gradle/caches/transforms-3/d39720dfd11c84abbb1765362ab7e280/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/moringa/.gradle/caches/transforms-3/d39720dfd11c84abbb1765362ab7e280/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /home/moringa/.gradle/caches/transforms-3/9a37503f4125aeb8aff9eebad867370d/transformed/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /home/moringa/.gradle/caches/transforms-3/9a37503f4125aeb8aff9eebad867370d/transformed/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/moringa/.gradle/caches/transforms-3/9917c1060ba2f79f3519a1b2bf642c2c/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/moringa/.gradle/caches/transforms-3/9917c1060ba2f79f3519a1b2bf642c2c/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.1] /home/moringa/.gradle/caches/transforms-3/276b9f39ff8a643158d3bab292c7df18/transformed/jetified-play-services-measurement-sdk-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.1] /home/moringa/.gradle/caches/transforms-3/276b9f39ff8a643158d3bab292c7df18/transformed/jetified-play-services-measurement-sdk-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /home/moringa/.gradle/caches/transforms-3/69e03d23a05b4a47d522790844bcf9c2/transformed/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /home/moringa/.gradle/caches/transforms-3/69e03d23a05b4a47d522790844bcf9c2/transformed/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/moringa/.gradle/caches/transforms-3/4275f7466625097397615de4509de015/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/moringa/.gradle/caches/transforms-3/4275f7466625097397615de4509de015/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /home/moringa/.gradle/caches/transforms-3/9e3ea9848b697e35b9d42c7f48a6b35f/transformed/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /home/moringa/.gradle/caches/transforms-3/9e3ea9848b697e35b9d42c7f48a6b35f/transformed/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/moringa/.gradle/caches/transforms-3/0c40c890b077ac3a2327fb7774bd59e3/transformed/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/moringa/.gradle/caches/transforms-3/0c40c890b077ac3a2327fb7774bd59e3/transformed/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/fe2f6e0f0a2885e1ee1439d9b02f4149/transformed/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/fe2f6e0f0a2885e1ee1439d9b02f4149/transformed/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.1] /home/moringa/.gradle/caches/transforms-3/b13830906aa0a3f4fcb96c655bea75b9/transformed/jetified-play-services-measurement-base-19.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.1] /home/moringa/.gradle/caches/transforms-3/b13830906aa0a3f4fcb96c655bea75b9/transformed/jetified-play-services-measurement-base-19.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/moringa/.gradle/caches/transforms-3/ec213062c4a9823a024f0488acc91aa5/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/moringa/.gradle/caches/transforms-3/ec213062c4a9823a024f0488acc91aa5/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/moringa/.gradle/caches/transforms-3/ef6b4434b988b611508623c245004ffd/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/moringa/.gradle/caches/transforms-3/ef6b4434b988b611508623c245004ffd/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] /home/moringa/.gradle/caches/transforms-3/6adff63397c1ac50e331d47bdf613af2/transformed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] /home/moringa/.gradle/caches/transforms-3/6adff63397c1ac50e331d47bdf613af2/transformed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /home/moringa/.gradle/caches/transforms-3/47412af5d8349bb5a27bf7b522242cae/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/moringa/.gradle/caches/transforms-3/47412af5d8349bb5a27bf7b522242cae/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/moringa/.gradle/caches/transforms-3/d0a79b936e419dd387b875699ee4b62c/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/moringa/.gradle/caches/transforms-3/d0a79b936e419dd387b875699ee4b62c/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/moringa/.gradle/caches/transforms-3/8ada507a1dd724fe6991d5ce94b4cd54/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/moringa/.gradle/caches/transforms-3/8ada507a1dd724fe6991d5ce94b4cd54/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.0.0] /home/moringa/.gradle/caches/transforms-3/8cc4c6bdd8fb3cd34c63326ead0f3c9e/transformed/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /home/moringa/.gradle/caches/transforms-3/8cc4c6bdd8fb3cd34c63326ead0f3c9e/transformed/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/moringa/.gradle/caches/transforms-3/6fb69af6583698668532bf0fd35caf8f/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/moringa/.gradle/caches/transforms-3/6fb69af6583698668532bf0fd35caf8f/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/moringa/.gradle/caches/transforms-3/9ae11d25ffc96a1bf108d9cb11000878/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/moringa/.gradle/caches/transforms-3/9ae11d25ffc96a1bf108d9cb11000878/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/moringa/.gradle/caches/transforms-3/8eea484709a67dddc1ab9ae1893abd2b/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/moringa/.gradle/caches/transforms-3/8eea484709a67dddc1ab9ae1893abd2b/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/moringa/.gradle/caches/transforms-3/8a7b9e471f23c1540e322373ba839543/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/moringa/.gradle/caches/transforms-3/8a7b9e471f23c1540e322373ba839543/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/moringa/.gradle/caches/transforms-3/270f36836ed73a45dbff76b561bed474/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/moringa/.gradle/caches/transforms-3/270f36836ed73a45dbff76b561bed474/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/moringa/.gradle/caches/transforms-3/781dd23490527cfee6df6b2cc663fc9a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/moringa/.gradle/caches/transforms-3/781dd23490527cfee6df6b2cc663fc9a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/moringa/.gradle/caches/transforms-3/fb357798e0a06fc931bb8f4dac764065/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/moringa/.gradle/caches/transforms-3/fb357798e0a06fc931bb8f4dac764065/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/moringa/.gradle/caches/transforms-3/f0e1dca14b5ed3fe159b41cdf0cbf790/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/moringa/.gradle/caches/transforms-3/f0e1dca14b5ed3fe159b41cdf0cbf790/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/moringa/.gradle/caches/transforms-3/d7d271375ded6eff316edd27ceb0072d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/moringa/.gradle/caches/transforms-3/d7d271375ded6eff316edd27ceb0072d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/moringa/.gradle/caches/transforms-3/21aff1fa3790b705ad8e19b1c47e0d56/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/moringa/.gradle/caches/transforms-3/21aff1fa3790b705ad8e19b1c47e0d56/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/moringa/.gradle/caches/transforms-3/52b8a03cfc4c20a0c9c78819018423c4/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/moringa/.gradle/caches/transforms-3/52b8a03cfc4c20a0c9c78819018423c4/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/moringa/.gradle/caches/transforms-3/fbf631149de996a78c67c939d36f7655/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/moringa/.gradle/caches/transforms-3/fbf631149de996a78c67c939d36f7655/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/moringa/.gradle/caches/transforms-3/cd32edd474bb2a02875747f09057a6e3/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/moringa/.gradle/caches/transforms-3/cd32edd474bb2a02875747f09057a6e3/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/moringa/.gradle/caches/transforms-3/634062af7ba6565b6ce63935447f68fe/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/moringa/.gradle/caches/transforms-3/634062af7ba6565b6ce63935447f68fe/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/moringa/.gradle/caches/transforms-3/343c797141be332cf662fb965493c0b7/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/moringa/.gradle/caches/transforms-3/343c797141be332cf662fb965493c0b7/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] /home/moringa/.gradle/caches/transforms-3/1c82df0e58fbd0ba966b0ae0d34659c1/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /home/moringa/.gradle/caches/transforms-3/1c82df0e58fbd0ba966b0ae0d34659c1/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/moringa/.gradle/caches/transforms-3/3727d41d965d68ffe5020a108ad2f770/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/moringa/.gradle/caches/transforms-3/3727d41d965d68ffe5020a108ad2f770/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/moringa/.gradle/caches/transforms-3/60c29e3303dcf5243bee8bf4b7c5e277/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/moringa/.gradle/caches/transforms-3/60c29e3303dcf5243bee8bf4b7c5e277/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/moringa/.gradle/caches/transforms-3/fbb142ee1815151d8084e34648d018ac/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/moringa/.gradle/caches/transforms-3/fbb142ee1815151d8084e34648d018ac/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/moringa/.gradle/caches/transforms-3/565cca9de196af3b5c3cf847658b2a4e/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/moringa/.gradle/caches/transforms-3/565cca9de196af3b5c3cf847658b2a4e/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/moringa/.gradle/caches/transforms-3/0ec9a63f72234c6a7cb0667c5156537a/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/moringa/.gradle/caches/transforms-3/0ec9a63f72234c6a7cb0667c5156537a/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/moringa/.gradle/caches/transforms-3/b5a1dde354f7afc013622ec6eac7dc84/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/moringa/.gradle/caches/transforms-3/b5a1dde354f7afc013622ec6eac7dc84/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/moringa/.gradle/caches/transforms-3/8f2ac2f66ecbb08db60eaf93a9f6f260/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/moringa/.gradle/caches/transforms-3/8f2ac2f66ecbb08db60eaf93a9f6f260/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/moringa/.gradle/caches/transforms-3/8d4069d8883cd35818f5c173a3837002/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/moringa/.gradle/caches/transforms-3/8d4069d8883cd35818f5c173a3837002/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/moringa/.gradle/caches/transforms-3/82f0742619c93bff749e298ff0daa035/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/moringa/.gradle/caches/transforms-3/82f0742619c93bff749e298ff0daa035/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/moringa/.gradle/caches/transforms-3/4a2dc31dca41ceabe72d8efa19d292bf/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/moringa/.gradle/caches/transforms-3/4a2dc31dca41ceabe72d8efa19d292bf/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/moringa/.gradle/caches/transforms-3/59b41095d2f1061113aab46acc35c68a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/moringa/.gradle/caches/transforms-3/59b41095d2f1061113aab46acc35c68a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/moringa/.gradle/caches/transforms-3/cdbb0a5ed9226eb4b8198249161f9ff2/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/moringa/.gradle/caches/transforms-3/cdbb0a5ed9226eb4b8198249161f9ff2/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/moringa/.gradle/caches/transforms-3/869e87640d2ab98ed21d3c10b182f739/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/moringa/.gradle/caches/transforms-3/869e87640d2ab98ed21d3c10b182f739/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/moringa/.gradle/caches/transforms-3/9692f4eff85761d20785aa5053f9ebcb/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/moringa/.gradle/caches/transforms-3/9692f4eff85761d20785aa5053f9ebcb/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/moringa/.gradle/caches/transforms-3/d3f87aa4861bbafadab8253cbbec58bc/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/moringa/.gradle/caches/transforms-3/d3f87aa4861bbafadab8253cbbec58bc/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/moringa/.gradle/caches/transforms-3/783b035d32ce5be15ab468001bd7362a/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/moringa/.gradle/caches/transforms-3/783b035d32ce5be15ab468001bd7362a/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/moringa/.gradle/caches/transforms-3/84046498be48793439a4476136a93af1/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/moringa/.gradle/caches/transforms-3/84046498be48793439a4476136a93af1/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/moringa/.gradle/caches/transforms-3/9ccd4574ebca9c86103f7bd859ba1dfd/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/moringa/.gradle/caches/transforms-3/9ccd4574ebca9c86103f7bd859ba1dfd/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/moringa/.gradle/caches/transforms-3/07ee67b71d61179709c3749373524324/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/moringa/.gradle/caches/transforms-3/07ee67b71d61179709c3749373524324/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.28.0] /home/moringa/.gradle/caches/transforms-3/a1b6a2558cae7a50244f7d82767cb4ec/transformed/jetified-grpc-android-1.28.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.28.0] /home/moringa/.gradle/caches/transforms-3/a1b6a2558cae7a50244f7d82767cb4ec/transformed/jetified-grpc-android-1.28.0/AndroidManifest.xml:7:5-9:41
 INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml
 INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -219,11 +383,211 @@ INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidMani
 		INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml
 		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml
 		INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml
-provider#com.squareup.picasso.PicassoProvider
-ADDED from [com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/35086ceb76f1ad175cf35ed018c76ede/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
-	android:authorities
-		ADDED from [com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/35086ceb76f1ad175cf35ed018c76ede/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
-	android:exported
-		ADDED from [com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/35086ceb76f1ad175cf35ed018c76ede/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] /home/moringa/.gradle/caches/transforms-3/f9aee0cda849501db64afde87fec0768/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] /home/moringa/.gradle/caches/transforms-3/f9aee0cda849501db64afde87fec0768/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/9dcc7c6d1afd317f42d3ab94fa2bea04/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/9dcc7c6d1afd317f42d3ab94fa2bea04/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/moringa/.gradle/caches/transforms-3/045ee3e52baef22a6f354e1b63ce65b6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/moringa/.gradle/caches/transforms-3/045ee3e52baef22a6f354e1b63ce65b6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /home/moringa/.gradle/caches/transforms-3/9e3ea9848b697e35b9d42c7f48a6b35f/transformed/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /home/moringa/.gradle/caches/transforms-3/9e3ea9848b697e35b9d42c7f48a6b35f/transformed/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/fe2f6e0f0a2885e1ee1439d9b02f4149/transformed/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/fe2f6e0f0a2885e1ee1439d9b02f4149/transformed/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] /home/moringa/.gradle/caches/transforms-3/a1b6a2558cae7a50244f7d82767cb4ec/transformed/jetified-grpc-android-1.28.0/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] /home/moringa/.gradle/caches/transforms-3/a1b6a2558cae7a50244f7d82767cb4ec/transformed/jetified-grpc-android-1.28.0/AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from [com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/35086ceb76f1ad175cf35ed018c76ede/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+		ADDED from [com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:25:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] /home/moringa/.gradle/caches/transforms-3/f9aee0cda849501db64afde87fec0768/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] /home/moringa/.gradle/caches/transforms-3/f9aee0cda849501db64afde87fec0768/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/9dcc7c6d1afd317f42d3ab94fa2bea04/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/9dcc7c6d1afd317f42d3ab94fa2bea04/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/moringa/.gradle/caches/transforms-3/045ee3e52baef22a6f354e1b63ce65b6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/moringa/.gradle/caches/transforms-3/045ee3e52baef22a6f354e1b63ce65b6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:31:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:33:17-109
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/94d89058c67ff24ffccce9c1d6cfc1a7/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/94d89058c67ff24ffccce9c1d6cfc1a7/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/94d89058c67ff24ffccce9c1d6cfc1a7/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/94d89058c67ff24ffccce9c1d6cfc1a7/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+service#com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+	android:enabled
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+intent-filter#action:name:com.google.firebase.auth.api.gms.service.START+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+action#com.google.firebase.auth.api.gms.service.START
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:23.0.3] /home/moringa/.gradle/caches/transforms-3/f9aee0cda849501db64afde87fec0768/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:23.0.3] /home/moringa/.gradle/caches/transforms-3/f9aee0cda849501db64afde87fec0768/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:23.0.3] /home/moringa/.gradle/caches/transforms-3/f9aee0cda849501db64afde87fec0768/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:21:17-111
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/9dcc7c6d1afd317f42d3ab94fa2bea04/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /home/moringa/.gradle/caches/transforms-3/9e3ea9848b697e35b9d42c7f48a6b35f/transformed/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /home/moringa/.gradle/caches/transforms-3/9e3ea9848b697e35b9d42c7f48a6b35f/transformed/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/fe2f6e0f0a2885e1ee1439d9b02f4149/transformed/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/fe2f6e0f0a2885e1ee1439d9b02f4149/transformed/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/9dcc7c6d1afd317f42d3ab94fa2bea04/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/9dcc7c6d1afd317f42d3ab94fa2bea04/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/9dcc7c6d1afd317f42d3ab94fa2bea04/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/9dcc7c6d1afd317f42d3ab94fa2bea04/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.0] /home/moringa/.gradle/caches/transforms-3/045ee3e52baef22a6f354e1b63ce65b6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /home/moringa/.gradle/caches/transforms-3/045ee3e52baef22a6f354e1b63ce65b6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /home/moringa/.gradle/caches/transforms-3/045ee3e52baef22a6f354e1b63ce65b6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/moringa/.gradle/caches/transforms-3/9917c1060ba2f79f3519a1b2bf642c2c/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/moringa/.gradle/caches/transforms-3/9917c1060ba2f79f3519a1b2bf642c2c/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/moringa/.gradle/caches/transforms-3/9917c1060ba2f79f3519a1b2bf642c2c/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/moringa/.gradle/caches/transforms-3/9917c1060ba2f79f3519a1b2bf642c2c/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /home/moringa/.gradle/caches/transforms-3/9e3ea9848b697e35b9d42c7f48a6b35f/transformed/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /home/moringa/.gradle/caches/transforms-3/9e3ea9848b697e35b9d42c7f48a6b35f/transformed/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:40:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.1.0] /home/moringa/.gradle/caches/transforms-3/6adff63397c1ac50e331d47bdf613af2/transformed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.1.0] /home/moringa/.gradle/caches/transforms-3/6adff63397c1ac50e331d47bdf613af2/transformed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.1.0] /home/moringa/.gradle/caches/transforms-3/6adff63397c1ac50e331d47bdf613af2/transformed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58

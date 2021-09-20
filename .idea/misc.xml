@@ -4,11 +4,17 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/btn_custom.xml" value="0.10520833333333333" />
+        <entry key="app/src/main/res/drawable/et_custom.xml" value="0.10520833333333333" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.10520833333333333" />
         <entry key="app/src/main/res/layout/activity_blog_items.xml" value="0.18" />
-        <entry key="app/src/main/res/layout/activity_donation.xml" value="0.25908372827804105" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_donation.xml" value="0.22937625754527163" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_test.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/main.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>
     </option>
   </component>

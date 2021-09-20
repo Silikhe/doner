@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Donner</string>
+    <string name="signup">Already have an account? </string>
+    <string name="login">Don\'t have an account yet? </string>
 </resources>
