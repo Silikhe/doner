@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<com.google.android.material.card.MaterialCardView
+    layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginBottom="20px"
+    android:layout_height="wrap_content"
+    app:strokeColor="@color/yellow"
+    android:layout_margin="16dp"
+    tools:ignore="MissingConstraints"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Blog_items">
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
-        android:layout_marginBottom="20px"
-        android:layout_height="wrap_content"
-        app:strokeColor="@color/yellow"
-        android:layout_margin="16dp"
-        tools:ignore="MissingConstraints">
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -38,24 +36,18 @@
                     android:id="@+id/blogTile"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="dijdijijdwijidjj"
+                    android:text="Sudan Outreach"
                     android:textAppearance="?attr/textAppearanceHeadline6" />
-
-                <TextView
-                    android:id="@+id/blogName"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:text="jsksksjdwmkds"
-                    android:textAppearance="?attr/textAppearanceBody2"
-                    android:textColor="?android:attr/textColorSecondary" />
 
                 <TextView
                     android:id="@+id/blogContent"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="Paragraph"
+                    android:text="Silas smiles as the home page is one
+he’s used to. He reads a few stories
+and reports then he clicks the floating
+action button to begin donating..."
                     android:textAppearance="?attr/textAppearanceBody2"
                     android:textColor="?android:attr/textColorSecondary" />
 
@@ -75,10 +67,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Read more"
-                android:textColor="@color/yellow" />
+                android:layout_gravity="right"
+                android:textColor="@color/yellow"
+                android:textSize="12sp" />
 
         </LinearLayout>
 
     </com.google.android.material.card.MaterialCardView>
 
-</androidx.constraintlayout.widget.ConstraintLayout>

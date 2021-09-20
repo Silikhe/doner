@@ -26,7 +26,12 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -38,15 +43,22 @@ public class DonationActivity extends AppCompatActivity {
     private ImageView addDonations;
     private Button chooseImage;
     Uri imageUri;
+    private RecyclerView recyclerView;
+    private ProgressBar progressBar;
+    private FloatingActionButton donateFab;
+    private FirebaseDatabase firebaseDatabase;
+    private DatabaseReference databaseReference;
+    private ArrayList<StoryModel> storyModels;
+    private RelativeLayout donRl;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_donation);
 
-        addDonations = (ImageView) findViewById(R.id.iv_add_donation);
+        donateFab = (FloatingActionButton) findViewById(R.id.donate);
 
-        addDonations.setOnClickListener(new View.OnClickListener() {
+        donateFab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openDialogue();

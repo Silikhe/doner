@@ -9,6 +9,6 @@ public class Blog_items extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_blog_items);
+        setContentView(R.layout.activity_story_items);
     }
 }
