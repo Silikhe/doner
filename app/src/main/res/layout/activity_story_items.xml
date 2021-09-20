@@ -18,7 +18,7 @@
 
             <!-- Media -->
             <ImageView
-                android:id="@+id/blogImg"
+                android:id="@+id/donImg"
                 android:layout_width="match_parent"
                 android:layout_height="194dp"
                 android:contentDescription="Pidjifiuinbfiuuinhdidndwn"
@@ -33,14 +33,14 @@
 
                 <!-- Title, secondary and supporting text -->
                 <TextView
-                    android:id="@+id/blogTile"
+                    android:id="@+id/donName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Sudan Outreach"
                     android:textAppearance="?attr/textAppearanceHeadline6" />
 
                 <TextView
-                    android:id="@+id/blogContent"
+                    android:id="@+id/donContent"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"

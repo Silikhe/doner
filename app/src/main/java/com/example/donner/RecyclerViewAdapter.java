@@ -47,6 +47,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
 
+
+
 //        //get data
 //        Blogs blogs = blogsArrayList.get(position);
 //
