@@ -16,6 +16,10 @@
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/main1.png"
     },
     {
+        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/layout_layout_dialogue.xml.flat",
+        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/layout/layout_dialogue.xml"
+    },
+    {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/layout_activity_splash_screen.xml.flat",
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/layout/activity_splash_screen.xml"
     },

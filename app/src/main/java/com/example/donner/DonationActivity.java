@@ -12,15 +12,20 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class DonationActivity extends AppCompatActivity {
+
+    private ImageView addDonations;
 //    private ListView mListView;
 //    private String[] donations = new String[]{
 //            "Mukuru Donations", "Kijabe Donations", "Nairobi donations", "Silas Donations",
@@ -50,6 +55,14 @@ public class DonationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_donation);
 
+        addDonations = (ImageView) findViewById(R.id.iv_add_donation);
+
+        addDonations.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openDialogue();
+            }
+        });
 //        recyclerView = findViewById(R.id.blogs_recycler);
 //        recyclerView.setLayoutManager(new LinearLayoutManager(this));
 //        recyclerView.setHasFixedSize(true);
@@ -77,6 +90,10 @@ public class DonationActivity extends AppCompatActivity {
 //        Intent intent = getIntent();
 //        String name = intent.getStringExtra("username");
 
+    }
+
+    private void openDialogue() {
+        Toast.makeText(DonationActivity.this, "Open Dialogue!", Toast.LENGTH_LONG).show();
     }
 
 //    private void loadPost() {

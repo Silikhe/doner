@@ -10,6 +10,7 @@ com/example/donner/Blog_items.java
  com.example.donner.Blog_items
 com/example/donner/DonationActivity.java
  com.example.donner.DonationActivity
+ com.example.donner.DonationActivity$1
 com/example/donner/RecyclerViewAdapter.java
  com.example.donner.RecyclerViewAdapter
  com.example.donner.RecyclerViewAdapter$ViewHolder

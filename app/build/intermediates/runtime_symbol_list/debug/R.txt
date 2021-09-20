@@ -2108,7 +2108,6 @@ int id ignore 0x7f0800e4
 int id ignoreRequest 0x7f0800e5
 int id image 0x7f0800e6
 int id imageView 0x7f0800e7
-int id imageView2 0x7f0801f3
 int id imageView3 0x7f0800e8
 int id imgSign 0x7f0800e9
 int id immediateStop 0x7f0800ea
@@ -2118,6 +2117,7 @@ int id invisible 0x7f0800ed
 int id inward 0x7f0800ee
 int id italic 0x7f0800ef
 int id item_touch_helper_previous_elevation 0x7f0800f0
+int id iv_add_donation 0x7f0801f4
 int id jumpToEnd 0x7f0800f1
 int id jumpToStart 0x7f0800f2
 int id labeled 0x7f0800f3
@@ -2292,6 +2292,7 @@ int id startVertical 0x7f08019b
 int id staticLayout 0x7f08019c
 int id staticPostLayout 0x7f08019d
 int id stop 0x7f08019e
+int id story_title 0x7f0801f5
 int id stretch 0x7f08019f
 int id submenuarrow 0x7f0801a0
 int id submit_area 0x7f0801a1
@@ -2323,6 +2324,7 @@ int id textSpacerNoTitle 0x7f0801ba
 int id textStart 0x7f0801bb
 int id textTop 0x7f0801bc
 int id textView 0x7f0801bd
+int id textView2 0x7f0801f6
 int id textView3 0x7f0801be
 int id textView4 0x7f0801bf
 int id textView6 0x7f0801c0
@@ -2468,6 +2470,7 @@ int layout design_navigation_menu 0x7f0b0030
 int layout design_navigation_menu_item 0x7f0b0031
 int layout design_text_input_end_icon 0x7f0b0032
 int layout design_text_input_start_icon 0x7f0b0033
+int layout layout_dialogue 0x7f0b0078
 int layout material_chip_input_combo 0x7f0b0034
 int layout material_clock_display 0x7f0b0035
 int layout material_clock_display_divider 0x7f0b0036
