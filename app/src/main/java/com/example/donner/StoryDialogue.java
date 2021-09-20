@@ -3,22 +3,28 @@ package com.example.donner;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatDialogFragment;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class StoryDialogue extends AppCompatDialogFragment {
 
+    private static final String TAG = "Success";
     private EditText donTitle, donDesc, donImage;
     String storyTitle, storyDesc, storyImage;
     private ProgressBar loadingPg;
@@ -66,6 +72,22 @@ public class StoryDialogue extends AppCompatDialogFragment {
         storyImage = donImage.getText().toString();
 
         storyId = storyTitle;
+
+        StoryModel storyModel = new StoryModel(storyId, storyTitle, storyDesc, storyImage);
+        databaseReference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                databaseReference.child(storyId).setValue(storyModel);
+//                Toast.makeText(, "", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(StoryDialogue.this, "Logged in Successfully!", Toast.LENGTH_LONG).show();
+                Log.d(TAG, "Message added successfully: ");
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+                Log.d(TAG, "There was an error: "+ error);
+            }
+        });
 
     }
 }
