@@ -7712,6 +7712,12 @@
         
         <item name="android:statusBarColor" ns2:targetApi="l">?attr/colorPrimaryVariant</item>
         
+        <item name="android:timePickerDialogTheme">@style/AlertDialogCustom</item>
+        <item name="android:datePickerDialogTheme">@style/AlertDialogCustom</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogCustom</item>
+    </style><style name="AlertDialogCustom" parent="android:Theme.Material.Light.Dialog.Alert">
+        <item name="android:colorPrimary">#00397F</item>
+        <item name="android:colorAccent">#0AAEEF</item>
     </style></file><file path="/home/moringa/AndroidStudioProjects/doner/app/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">Donner</string><string name="signup">Already have an account? </string><string name="login">Don\'t have an account yet? </string></file><file name="logo" path="/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/logo.png" qualifiers="" type="drawable"/><file name="et_custom" path="/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/et_custom.xml" qualifiers="" type="drawable"/><file name="btn_custom" path="/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/btn_custom.xml" qualifiers="" type="drawable"/><file name="main1" path="/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/main1.png" qualifiers="" type="drawable"/><file name="ic_launcher_background" path="/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/ic_launcher_background.xml" qualifiers="" type="drawable"/><file name="icon" path="/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/icon.png" qualifiers="" type="drawable"/><file path="/home/moringa/AndroidStudioProjects/doner/app/src/main/res/values-night/themes.xml" qualifiers="night-v8"><style name="Theme.Donner" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

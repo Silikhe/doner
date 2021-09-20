@@ -2111,6 +2111,7 @@ id image
 id imageView
 id imageView3
 id imgSign
+id img_url
 id immediateStop
 id included
 id info
@@ -2293,6 +2294,7 @@ id startVertical
 id staticLayout
 id staticPostLayout
 id stop
+id story_description
 id story_title
 id stretch
 id submenuarrow
@@ -2676,6 +2678,7 @@ string signup
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
+style AlertDialogCustom
 style AndroidThemeColorAccentYellow
 style Animation_AppCompat_Dialog
 style Animation_AppCompat_DropDownUp

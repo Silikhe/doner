@@ -10,11 +10,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Add Donation Story"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_centerVertical="true"
+        android:text="Every donation story counts"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/story_title"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
@@ -34,34 +32,37 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
-        android:id="@+id/story_description"
+        android:id="@+id/img_url"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:lines="15"
-        android:minLines="4"
-        android:gravity="top|left"
+        android:layout_height="50dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/et_custom"
-        android:hint="Story Description"
-        android:inputType="textMultiLine"
+        android:hint="Image Url"
+        android:inputType="text"
         android:padding="15dp"
         android:textSize="15sp"
-        android:scrollHorizontally="false"
-        android:scrollbars="vertical"
         app:layout_constraintEnd_toEndOf="@+id/story_title"
         app:layout_constraintStart_toStartOf="@+id/story_title"
         app:layout_constraintTop_toBottomOf="@+id/story_title" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/chhose_image"
+    <EditText
+        android:id="@+id/story_description"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:background="@drawable/btn_custom"
-        android:onClick="viewTopics"
-        android:text="login"
-        android:textColor="@android:color/white"
-        app:layout_constraintEnd_toEndOf="@+id/story_description"
-        app:layout_constraintStart_toStartOf="@+id/story_description"
-        app:layout_constraintTop_toBottomOf="@+id/story_description" />
+        android:background="@drawable/et_custom"
+        android:gravity="top|left"
+        android:hint="Story Description"
+        android:inputType="textMultiLine"
+        android:lines="15"
+        android:minLines="4"
+        android:padding="15dp"
+        android:scrollbars="vertical"
+        android:scrollHorizontally="false"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/story_title"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/story_title"
+        app:layout_constraintTop_toBottomOf="@+id/img_url" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,13 +1,13 @@
-com/example/donner/Blogs.java
- com.example.donner.Blogs
-com/example/donner/Constants.java
- com.example.donner.Constants
-com/example/donner/BuildConfig.java
- com.example.donner.BuildConfig
 com/example/donner/MainActivity.java
  com.example.donner.MainActivity
+com/example/donner/Constants.java
+ com.example.donner.Constants
 com/example/donner/Blog_items.java
  com.example.donner.Blog_items
+com/example/donner/BuildConfig.java
+ com.example.donner.BuildConfig
+com/example/donner/Blogs.java
+ com.example.donner.Blogs
 com/example/donner/DonationActivity.java
  com.example.donner.DonationActivity
  com.example.donner.DonationActivity$1
@@ -17,10 +17,16 @@ com/example/donner/RecyclerViewAdapter.java
 com/example/donner/SplashScreenActivity.java
  com.example.donner.SplashScreenActivity
  com.example.donner.SplashScreenActivity$1
+com/example/donner/UploadImage.java
+ com.example.donner.UploadImage
 com/example/donner/LoginActivity.java
  com.example.donner.LoginActivity
  com.example.donner.LoginActivity$1
  com.example.donner.LoginActivity$2
+com/example/donner/StoryDialogue.java
+ com.example.donner.StoryDialogue
+ com.example.donner.StoryDialogue$1
+ com.example.donner.StoryDialogue$2
 com/example/donner/SignupActivity.java
  com.example.donner.SignupActivity
  com.example.donner.SignupActivity$1

@@ -50,17 +50,16 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
-
-//    void viewInitializations() {
-//        mUsername = findViewById(R.id.et_email);
-//
-//        //set text from login intent
-//        Intent login = getIntent();
-//        String username = login.getStringExtra("username");
-//        mUsername.setText(username);
-//
-//        mPassword = findViewById(R.id.et_password);
-//    }
+    @Override
+    protected void onStart() {
+        super.onStart();
+        FirebaseUser user = mAuth.getCurrentUser();
+        if (user != null){
+            Intent intent = new Intent(LoginActivity.this, DonationActivity.class);
+            startActivity(intent);
+            this.finish();
+        }
+    }
 
     private void userLogin() {
         mUsername = findViewById(R.id.et_email);
