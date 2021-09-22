@@ -24,10 +24,9 @@ import com.google.firebase.database.ValueEventListener;
 
 public class StoryDialogue extends AppCompatDialogFragment {
 
-    private static final String TAG = "Success";
+    private static final String TAG = "StoryDialogue";
     private EditText donTitle, donDesc, donImage;
     String storyTitle, storyDesc, storyImage;
-    private ProgressBar loadingPg;
     private FirebaseDatabase firebaseDatabase;
     private DatabaseReference databaseReference;
     String storyId;
@@ -53,6 +52,15 @@ public class StoryDialogue extends AppCompatDialogFragment {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         postStory();
+                        donTitle = view.findViewById(R.id.story_title);
+                        donDesc = view.findViewById(R.id.story_description);
+                        donImage = view.findViewById(R.id.img_url);
+
+                        firebaseDatabase = FirebaseDatabase.getInstance();
+                        databaseReference = firebaseDatabase.getReference("Stories");
+
+
+
                     }
                 });
 
@@ -64,28 +72,35 @@ public class StoryDialogue extends AppCompatDialogFragment {
         return builder.create();
     }
 
+//    @Override
+//    public void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//
+//
+//
+//    }
+
     private void postStory() {
-        databaseReference = firebaseDatabase.getReference("Story");
+        databaseReference = FirebaseDatabase.getInstance().getReference("Stories");
 
         storyTitle = donTitle.getText().toString();
         storyDesc = donDesc.getText().toString();
         storyImage = donImage.getText().toString();
-
         storyId = storyTitle;
 
-        StoryModel storyModel = new StoryModel(storyId, storyTitle, storyDesc, storyImage);
+        StoryModel story = new StoryModel(storyId, storyTitle, storyDesc, storyImage);
+
+
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                databaseReference.child(storyId).setValue(storyModel);
-//                Toast.makeText(, "", Toast.LENGTH_SHORT).show();
-//                Toast.makeText(StoryDialogue.this, "Logged in Successfully!", Toast.LENGTH_LONG).show();
-                Log.d(TAG, "Message added successfully: ");
+                databaseReference.child(storyId).setValue(story);
+                Log.d(TAG, "Message added successfully:" + databaseReference);
             }
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-                Log.d(TAG, "There was an error: "+ error);
+                Log.d(TAG, "There was an error: " + error);
             }
         });
 

@@ -53,6 +53,18 @@ public class SignupActivity extends AppCompatActivity {
         });
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        FirebaseUser user = mAuth.getCurrentUser();
+        if (user != null){
+            Toast.makeText(SignupActivity.this, "User already signed up & logged in!", Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(SignupActivity.this, DonationActivity.class);
+            startActivity(intent);
+            this.finish();
+        }
+    }
+
     private void createUser() {
 //        progressBar.setVisibility(View.VISIBLE);
         mEmail = findViewById(R.id.et_email);

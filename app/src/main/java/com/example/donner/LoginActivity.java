@@ -55,6 +55,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onStart();
         FirebaseUser user = mAuth.getCurrentUser();
         if (user != null){
+            Toast.makeText(LoginActivity.this, "User already logged in!", Toast.LENGTH_LONG).show();
             Intent intent = new Intent(LoginActivity.this, DonationActivity.class);
             startActivity(intent);
             this.finish();

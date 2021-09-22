@@ -6,7 +6,7 @@ import android.os.Parcelable;
 public class StoryModel implements Parcelable {
     private String storyTitle, storyDesc, storyImage, storyId;
 
-    public StoryModel(String storyTitle, String storyDesc, String storyImage, String storyId) {
+    public StoryModel(String storyId, String storyTitle, String storyDesc, String storyImage) {
         this.storyTitle = storyTitle;
         this.storyDesc = storyDesc;
         this.storyImage = storyImage;
