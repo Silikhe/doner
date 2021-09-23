@@ -8,12 +8,16 @@
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/main1.png"
     },
     {
-        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/menu_bottom_nav_menu.xml.flat",
+        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/menu/bottom_nav_menu.xml"
     },
     {
-        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/layout_activity_add_story.xml.flat",
-        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/layout/activity_add_story.xml"
+        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/layout_activity_add_donation.xml.flat",
+        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/layout/activity_add_donation.xml"
+    },
+    {
+        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_login.xml.flat",
@@ -32,8 +36,20 @@
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/layout/activity_signup.xml"
     },
     {
+        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_home.xml.flat",
+        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/home.xml"
+    },
+    {
+        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_box.png.flat",
+        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/box.png"
+    },
+    {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_btn_custom.xml.flat",
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/btn_custom.xml"
+    },
+    {
+        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_add.xml.flat",
+        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/add.xml"
     },
     {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/layout_activity_story_items.xml.flat",
@@ -70,10 +86,6 @@
     {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_ic_baseline_notifications_none_24.xml.flat",
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/ic_baseline_notifications_none_24.xml"
-    },
-    {
-        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable-v24_box.jpg.flat",
-        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable-v24/box.jpg"
     },
     {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",

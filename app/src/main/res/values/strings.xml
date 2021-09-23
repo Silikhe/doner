@@ -2,4 +2,7 @@
     <string name="app_name">Donner</string>
     <string name="signup">Already have an account? </string>
     <string name="login">Don\'t have an account yet? </string>
+    <string name="static_support">Wow! we have reached this far because of you. We would like to continuously appreciate your great work towards contributing to the society. Kudos! Once again\n \n Thanks for supporting.</string>
+    <string name="static_main">An African family needs your cloths. Be a helper donate make giving convenient. Be a helper. Donner makes giving convenient</string>
+    <string name="add_donation">This is your Donation Box. \n Add items you wish to donate</string>
 </resources>

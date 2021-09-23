@@ -57,8 +57,8 @@
 31-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:21:9-44
 32        <activity
 32-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:22:9-24:39
-33            android:name="com.example.donner.AddStory"
-33-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:23:13-37
+33            android:name="com.example.donner.AddDonation"
+33-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:23:13-40
 34            android:exported="true" />
 34-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:24:13-36
 35        <activity

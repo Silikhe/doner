@@ -1791,6 +1791,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable add
 drawable avd_hide_password
 drawable avd_show_password
 drawable box
@@ -1831,6 +1832,7 @@ drawable donate
 drawable et_custom
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable home
 drawable ic_baseline_notifications_none_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
@@ -1977,6 +1979,7 @@ id beginning
 id bestChoice
 id blocking
 id bottom
+id bottomNavigationView
 id bounce
 id bounceBoth
 id bounceEnd
@@ -2024,6 +2027,7 @@ id continueBtn
 id continuousVelocity
 id coordinator
 id cos
+id count
 id counterclockwise
 id currentState
 id custom
@@ -2117,6 +2121,7 @@ id ignoreRequest
 id image
 id imageView
 id imageView3
+id imageView4
 id imgSign
 id img_url
 id immediateStop
@@ -2141,6 +2146,7 @@ id linear
 id listMode
 id list_item
 id logo_text
+id logout
 id masked
 id match_constraint
 id match_parent
@@ -2295,13 +2301,19 @@ id src_atop
 id src_in
 id src_over
 id standard
+id star_noDon
 id start
 id startHorizontal
 id startToEnd
 id startVertical
+id stat_month
+id stat_t1
+id stat_totalActDon
+id stat_totalDon
 id staticLayout
 id staticPostLayout
 id stop
+id story
 id story_description
 id story_title
 id stretch
@@ -2335,10 +2347,15 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView10
 id textView2
 id textView3
 id textView4
+id textView5
 id textView6
+id textView7
+id textView8
+id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2457,7 +2474,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_add_story
+layout activity_add_donation
 layout activity_donation
 layout activity_login
 layout activity_main
@@ -2552,6 +2569,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+menu bottom_nav_menu
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
@@ -2581,6 +2599,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string add_donation
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
@@ -2685,6 +2704,8 @@ string path_password_strike_through
 string project_id
 string search_menu_title
 string signup
+string static_main
+string static_support
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -2695,6 +2716,7 @@ style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style Animation_MaterialComponents_BottomSheetDialog
+style AppTheme
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog

@@ -4,34 +4,27 @@ import static android.content.Intent.createChooser;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.core.app.ActivityCompat;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.Manifest;
-import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
-import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
@@ -40,11 +33,9 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 
 public class DonationActivity extends AppCompatActivity implements StoryRVAdapter.StoryClickInterface {
 
@@ -63,7 +54,33 @@ public class DonationActivity extends AppCompatActivity implements StoryRVAdapte
     private StoryRVAdapter storyRVAdapter;
     private FirebaseAuth mAuth;
     String storyId;
+    Context context = this;
 
+
+    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
+        @Override
+        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+            switch (item.getItemId()) {
+                case R.id.home:
+                    Intent intent = new Intent(context, DonationActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+//                    Toast.makeText(DonationActivity.this, "Home Selected", Toast.LENGTH_LONG).show();
+                    return true;
+                case R.id.story:
+                    openDialogue();
+                return true;
+                case R.id.logout:
+                    mAuth.signOut();
+                    Intent i = new Intent(DonationActivity.this, LoginActivity.class);
+                    startActivity(i);
+                    finish();
+                    Toast.makeText(DonationActivity.this, "User is now logged out!", Toast.LENGTH_LONG).show();
+                    return true;
+            }
+            return false;
+        }
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,36 +100,24 @@ public class DonationActivity extends AppCompatActivity implements StoryRVAdapte
         addDonations = findViewById(R.id.iv_add_donation);
         mAuth = FirebaseAuth.getInstance();
 
+        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.bottomNavigationView);
+        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+
         donateFab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openDialogue();
+                Intent intent = new Intent(DonationActivity.this, AddDonation.class);
+                startActivity(intent);
+                Toast.makeText(DonationActivity.this, "fab clicked", Toast.LENGTH_LONG).show();
             }
         });
 
         addDonations.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mAuth.signOut();
-                Toast.makeText(DonationActivity.this, "User is now logged out!", Toast.LENGTH_LONG).show();
-                Intent intent = new Intent(DonationActivity.this, LoginActivity.class);
-                startActivity(intent);
-                finish();
+                Toast.makeText(DonationActivity.this, "No notification at the moment", Toast.LENGTH_LONG).show();
             }
         });
-
-//        chooseImage.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Toast.makeText(DonationActivity.this, "Opening Gallery!", Toast.LENGTH_LONG).show();
-////
-//                Intent gallery = new Intent();
-//                gallery.setType("image/*");
-//                gallery.setAction(Intent.ACTION_GET_CONTENT);
-//
-//                startActivityForResult(createChooser(gallery, "select picture"), PICK_IMAGE);
-//            }
-//        });
 
         getAllStories();
 
@@ -127,7 +132,7 @@ public class DonationActivity extends AppCompatActivity implements StoryRVAdapte
             public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
                 progressBar.setVisibility(View.GONE);
 
-                storyModels.add(snapshot.getValue(StoryModel.class));
+//                storyModels.add(snapshot.getValue(StoryModel.class));
                 storyRVAdapter.notifyDataSetChanged();
 
 //                if (snapshot.child("storyDesc").exists() &&

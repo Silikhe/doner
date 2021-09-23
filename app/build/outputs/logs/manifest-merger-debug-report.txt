@@ -217,12 +217,12 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/morin
 		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:20:9-44
 	android:usesCleartextTraffic
 		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:21:9-44
-activity#com.example.donner.AddStory
+activity#com.example.donner.AddDonation
 ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:22:9-24:39
 	android:exported
 		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:24:13-36
 	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:23:13-37
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:23:13-40
 activity#com.example.donner.SignupActivity
 ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:25:9-27:39
 	android:exported

@@ -20,7 +20,7 @@
         android:theme="@style/Theme.Donner"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".AddStory"
+            android:name=".AddDonation"
             android:exported="true" />
         <activity
             android:name=".SignupActivity"

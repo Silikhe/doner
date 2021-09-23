@@ -30,7 +30,7 @@
         android:theme="@style/Theme.Donner"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.example.donner.AddStory"
+            android:name="com.example.donner.AddDonation"
             android:exported="true" />
         <activity
             android:name="com.example.donner.SignupActivity"
