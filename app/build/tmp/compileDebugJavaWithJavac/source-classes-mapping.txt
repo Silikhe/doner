@@ -1,11 +1,14 @@
+com/example/donner/BuildConfig.java
+ com.example.donner.BuildConfig
+com/example/donner/StoryModel.java
+ com.example.donner.StoryModel
+ com.example.donner.StoryModel$1
+com/example/donner/Constants.java
+ com.example.donner.Constants
 com/example/donner/MainActivity.java
  com.example.donner.MainActivity
 com/example/donner/AddDonation.java
  com.example.donner.AddDonation
-com/example/donner/Constants.java
- com.example.donner.Constants
-com/example/donner/BuildConfig.java
- com.example.donner.BuildConfig
 com/example/donner/DonationActivity.java
  com.example.donner.DonationActivity
  com.example.donner.DonationActivity$1
@@ -29,9 +32,6 @@ com/example/donner/SignupActivity.java
  com.example.donner.SignupActivity$1
  com.example.donner.SignupActivity$2
  com.example.donner.SignupActivity$3
-com/example/donner/StoryModel.java
- com.example.donner.StoryModel
- com.example.donner.StoryModel$1
 com/example/donner/StoryRVAdapter.java
  com.example.donner.StoryRVAdapter
  com.example.donner.StoryRVAdapter$1

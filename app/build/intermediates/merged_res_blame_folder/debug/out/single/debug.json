@@ -32,6 +32,10 @@
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/layout_donation_dialog.xml.flat",
+        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/layout/donation_dialog.xml"
+    },
+    {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/layout_activity_signup.xml.flat",
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/layout/activity_signup.xml"
     },
@@ -46,6 +50,10 @@
     {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_btn_custom.xml.flat",
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/btn_custom.xml"
+    },
+    {
+        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_notification.xml.flat",
+        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/notification.xml"
     },
     {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_add.xml.flat",
@@ -76,16 +84,16 @@
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/layout/activity_donation.xml"
     },
     {
+        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_location.xml.flat",
+        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/location.xml"
+    },
+    {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/layout_layout_dialogue.xml.flat",
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/layout/layout_dialogue.xml"
     },
     {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/layout_activity_splash_screen.xml.flat",
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/layout/activity_splash_screen.xml"
-    },
-    {
-        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_ic_baseline_notifications_none_24.xml.flat",
-        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/ic_baseline_notifications_none_24.xml"
     },
     {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",

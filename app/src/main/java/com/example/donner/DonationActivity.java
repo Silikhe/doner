@@ -62,10 +62,10 @@ public class DonationActivity extends AppCompatActivity implements StoryRVAdapte
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.home:
-                    Intent intent = new Intent(context, DonationActivity.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-//                    Toast.makeText(DonationActivity.this, "Home Selected", Toast.LENGTH_LONG).show();
+//                    Intent intent = new Intent(context, DonationActivity.class);
+//                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//                    startActivity(intent);
+                    Toast.makeText(context, "Home Selected", Toast.LENGTH_LONG).show();
                     return true;
                 case R.id.story:
                     openDialogue();

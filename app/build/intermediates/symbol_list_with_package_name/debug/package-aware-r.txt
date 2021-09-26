@@ -1833,7 +1833,6 @@ drawable et_custom
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable home
-drawable ic_baseline_notifications_none_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -1843,6 +1842,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable icon
+drawable location
 drawable login
 drawable logo
 drawable main1
@@ -1867,6 +1867,7 @@ drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable notification
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -2500,6 +2501,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout donation_dialog
 layout layout_dialogue
 layout material_chip_input_combo
 layout material_clock_display
