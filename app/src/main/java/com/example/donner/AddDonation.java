@@ -36,8 +36,6 @@ ImageView btn_full_box;
         btn_add_donations.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Intent intent = new Intent(AddDonation.this, DonPanellActivity.class);
-//                startActivity(intent);
                 openDialogue();
             }
         });
@@ -57,46 +55,6 @@ ImageView btn_full_box;
     private void openDialogue() {
         DonPanellActivity donPanellActivity = new DonPanellActivity();
         donPanellActivity.show(getSupportFragmentManager(), "Story Dialog");
-//        StoryDialogue storyDialogue = new StoryDialogue();
-//        storyDialogue.show(getSupportFragmentManager(), "Story Dialog");
     }
-//    public class AddDonation extends AppCompatDialogFragment {
-//
-//        Button btn_add_donations;
-//        ImageView btn_full_box;
-//
-//
-//        @NonNull
-//        @Override
-//        public Dialog onCreateDialog(@Nullable Bundle savedInstanceState) {
-//            AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-//            LayoutInflater inflater = getActivity().getLayoutInflater();
-//            View view = inflater.inflate(R.layout.activity_don_panell, null);
-//
-//
-//            builder.setView(view)
-//                    .setTitle("Create Donation Story")
-//                    .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-//                        @Override
-//                        public void onClick(DialogInterface dialogInterface, int i) {
-//
-//                        }
-//                    });
-//            btn_add_donations = view.findViewById(R.id.addDonBtn);
-//            btn_add_donations.setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View view) {
-////                    Intent intent = new Intent(AddDonation.this, DonPanellActivity.class);
-////                    startActivity(intent);
-//                }
-//            });
-//
-//            return builder.create();
-//        }
-//
-//
-//
-//    }
-
 }
 
