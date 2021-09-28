@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-82:12
-INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-82:12
-INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-82:12
-INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-82:12
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-85:12
+INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-85:12
+INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-85:12
+INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-85:12
 MERGED from [androidx.databinding:viewbinding:7.0.2] /home/moringa/.gradle/caches/transforms-3/620e574f95cf7e7e93ac68ed08666fcb/transformed/jetified-viewbinding-7.0.2/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.4.0] /home/moringa/.gradle/caches/transforms-3/c2e76fb5e086b5c906002f45c03cd24a/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/moringa/.gradle/caches/transforms-3/c0f7869d4dd728111a89d7a770b58255/transformed/constraintlayout-2.1.0/AndroidManifest.xml:2:1-11:12
@@ -77,22 +77,22 @@ MERGED from [androidx.print:print:1.0.0] /home/moringa/.gradle/caches/transforms
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/moringa/.gradle/caches/transforms-3/9ccd4574ebca9c86103f7bd859ba1dfd/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/moringa/.gradle/caches/transforms-3/07ee67b71d61179709c3749373524324/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.28.0] /home/moringa/.gradle/caches/transforms-3/a1b6a2558cae7a50244f7d82767cb4ec/transformed/jetified-grpc-android-1.28.0/AndroidManifest.xml:2:1-13:12
-INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-82:12
-INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-82:12
-INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-85:12
+INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-85:12
+INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-85:12
 	package
 		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:4:5-33
 		INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml
 		INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-82:12
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-85:12
 		INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-82:12
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:1-85:12
 		INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:2:11-69
@@ -165,7 +165,7 @@ MERGED from [io.grpc:grpc-android:1.28.0] /home/moringa/.gradle/caches/transform
 	android:name
 		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:18:22-76
 application
-ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:20:5-80:19
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:20:5-83:19
 MERGED from [com.google.android.material:material:1.4.0] /home/moringa/.gradle/caches/transforms-3/c2e76fb5e086b5c906002f45c03cd24a/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] /home/moringa/.gradle/caches/transforms-3/c2e76fb5e086b5c906002f45c03cd24a/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/moringa/.gradle/caches/transforms-3/c0f7869d4dd728111a89d7a770b58255/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
@@ -236,74 +236,80 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/morin
 		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:26:9-44
 	android:usesCleartextTraffic
 		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:27:9-44
-activity#com.example.donner.DonPanellActivity
+activity#com.example.donner.FullBoxActivity
 ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:28:9-30:39
 	android:exported
 		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:29:13-46
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:29:13-44
+activity#com.example.donner.DonPanellActivity
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:31:9-33:39
+	android:exported
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:32:13-46
 meta-data#com.google.android.geo.API_KEY
-ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:39:9-41:55
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:42:9-44:55
 	android:value
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:41:13-52
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:44:13-52
 	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:40:13-58
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:43:13-58
 activity#com.example.donner.LocationActivity
-ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:43:9-46:63
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:46:9-49:63
 	android:label
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:46:13-60
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:49:13-60
 	android:exported
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:45:13-36
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:48:13-36
 	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:44:13-45
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:47:13-45
 activity#com.example.donner.AddDonation
-ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:47:9-49:39
-	android:exported
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:49:13-36
-	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:48:13-40
-activity#com.example.donner.SignupActivity
 ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:50:9-52:39
 	android:exported
 		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:52:13-36
 	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:51:13-43
-activity#com.example.donner.SplashScreenActivity
-ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:53:9-61:20
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:51:13-40
+activity#com.example.donner.SignupActivity
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:53:9-55:39
 	android:exported
 		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:55:13-36
 	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:54:13-49
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:56:13-60:29
-action#android.intent.action.MAIN
-ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:57:17-69
-	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:57:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:59:17-77
-	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:59:27-74
-activity#com.example.donner.DonationActivity
-ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:62:9-64:39
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:54:13-43
+activity#com.example.donner.SplashScreenActivity
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:56:9-64:20
 	android:exported
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:64:13-36
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:58:13-36
 	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:63:13-45
-activity#com.example.donner.LoginActivity
-ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:65:9-68:45
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:57:13-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:59:13-63:29
+action#android.intent.action.MAIN
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:60:17-69
+	android:name
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:60:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:62:17-77
+	android:name
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:62:27-74
+activity#com.example.donner.DonationActivity
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:65:9-67:39
 	android:exported
 		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:67:13-36
-	tools:ignore
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:68:13-42
 	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:66:13-42
-activity#com.example.donner.MainActivity
-ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:69:9-79:20
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:66:13-45
+activity#com.example.donner.LoginActivity
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:68:9-71:45
 	android:exported
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:71:13-36
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:70:13-36
+	tools:ignore
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:71:13-42
 	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:70:13-41
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:69:13-42
+activity#com.example.donner.MainActivity
+ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:72:9-82:20
+	android:exported
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:74:13-36
+	android:name
+		ADDED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:73:13-41
 uses-sdk
 INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml

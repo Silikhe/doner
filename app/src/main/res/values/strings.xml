@@ -6,4 +6,5 @@
     <string name="static_main">An African family needs your cloths. Be a helper donate make giving convenient. Be a helper. Donner makes giving convenient</string>
     <string name="add_donation">This is your Donation Box. \n Add items you wish to donate</string>
     <string name="title_activity_location">LocationActivity</string>
+    <string name="oops">Opps! Your donation list is \n Empty</string>
 </resources>

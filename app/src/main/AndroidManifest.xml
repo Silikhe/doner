@@ -26,6 +26,9 @@
         android:theme="@style/Theme.Donner"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".FullBoxActivity"
+            android:exported="true" />
+        <activity
             android:name=".DonPanellActivity"
             android:exported="true" />
         <!--
