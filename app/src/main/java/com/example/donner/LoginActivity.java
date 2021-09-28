@@ -14,8 +14,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.accessibility.AccessibilityNodeInfo;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -35,6 +38,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private String pass, email;
     private FirebaseAuth mAuth;
+    private ImageView splash_image;
 
 
     @Override
@@ -43,6 +47,11 @@ public class LoginActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        splash_image = (ImageView) findViewById(R.id.splash_image);
+        Animation animation = AnimationUtils.loadAnimation(this, R.anim.animation_file);
+        splash_image.startAnimation(animation);
+
 //        viewInitializations();
         mLogBtn = (Button) findViewById(R.id.btn_login);
         mLogBtn.setOnClickListener((view) -> {
@@ -76,6 +85,7 @@ public class LoginActivity extends AppCompatActivity {
                         @Override
                         public void onSuccess(AuthResult authResult) {
 //                            checkIfEmailVerified();
+                            animSlideLeft();
                             Toast.makeText(LoginActivity.this, "Logged in Successfully!", Toast.LENGTH_LONG).show();
                             startActivity(new Intent(LoginActivity.this, DonationActivity.class));
                             finish();
@@ -91,6 +101,11 @@ public class LoginActivity extends AppCompatActivity {
         } else {
             mUsername.setError("Please enter Correct Email");
         }
+    }
+
+    private void animSlideLeft() {
+        Animation animation = AnimationUtils.loadAnimation(this, R.anim.slide_in_left);
+        mLogBtn.startAnimation(animation);
     }
 
     boolean validateInput() {

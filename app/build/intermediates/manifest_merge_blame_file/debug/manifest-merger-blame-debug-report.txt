@@ -9,15 +9,17 @@
 8-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="31" />
 9-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml
-10
-11    <!--
-12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
-13         Google Maps Android API v2, but you must specify either coarse or fine
-14         location permissions for the "MyLocation" functionality.
-15    -->
-16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:11:5-79
-16-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:11:22-76
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the "MyLocation" functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:10:5-79
+15-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:11:5-81
+16-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:11:22-78
 17    <uses-permission android:name="android.permission.INTERNET" />
 17-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:12:5-67
 17-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:12:22-64
@@ -52,7 +54,7 @@
 30-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:26:22-107
 31
 32    <application
-32-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:20:5-78:19
+32-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:20:5-80:19
 33        android:allowBackup="true"
 33-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:21:9-35
 34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -71,289 +73,294 @@
 41-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:26:9-44
 42        android:usesCleartextTraffic="true" >
 42-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:27:9-44
-43
-44        <!--
-45             The API key for Google Maps-based APIs is defined as a string resource.
-46             (See the file "res/values/google_maps_api.xml").
-47             Note that the API key is linked to the encryption key used to sign the APK.
-48             You need a different API key for each encryption key, including the release key that is used to
-49             sign the APK for publishing.
-50             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-51        -->
-52        <meta-data
-52-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:37:9-39:55
-53            android:name="com.google.android.geo.API_KEY"
-53-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:38:13-58
-54            android:value="@string/google_maps_key" />
-54-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:39:13-52
-55
-56        <activity
-56-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:41:9-44:63
-57            android:name="com.example.donner.LocationActivity"
-57-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:42:13-45
-58            android:exported="true"
-58-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:43:13-36
-59            android:label="@string/title_activity_location" />
-59-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:44:13-60
-60        <activity
-60-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:45:9-47:39
-61            android:name="com.example.donner.AddDonation"
-61-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:46:13-40
-62            android:exported="true" />
-62-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:47:13-36
-63        <activity
-63-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:48:9-50:39
-64            android:name="com.example.donner.SignupActivity"
-64-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:49:13-43
-65            android:exported="true" />
-65-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:50:13-36
-66        <activity
-66-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:51:9-59:20
-67            android:name="com.example.donner.SplashScreenActivity"
-67-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:52:13-49
-68            android:exported="true" >
-68-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:53:13-36
-69            <intent-filter>
-69-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:54:13-58:29
-70                <action android:name="android.intent.action.MAIN" />
-70-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:55:17-69
-70-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:55:25-66
-71
-72                <category android:name="android.intent.category.LAUNCHER" />
-72-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:57:17-77
-72-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:57:27-74
-73            </intent-filter>
-74        </activity>
-75        <activity
-75-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:60:9-62:39
-76            android:name="com.example.donner.DonationActivity"
-76-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:61:13-45
-77            android:exported="true" />
-77-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:62:13-36
-78        <activity
-78-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:63:9-66:45
-79            android:name="com.example.donner.LoginActivity"
-79-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:64:13-42
-80            android:exported="true" />
-80-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:65:13-36
-81        <activity
-81-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:67:9-77:20
-82            android:name="com.example.donner.MainActivity"
-82-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:68:13-41
-83            android:exported="true" >
-83-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:69:13-36
-84
-85            <!-- <intent-filter> -->
-86            <!-- <action android:name="android.intent.action.MAIN" /> -->
-87
-88
-89            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-90            <!-- </intent-filter> -->
-91        </activity>
-92
-93        <service
-93-->[com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:29:9-35:19
-94            android:name="com.google.firebase.components.ComponentDiscoveryService"
-94-->[com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:30:13-84
-95            android:directBootAware="true"
-95-->[com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
-96            android:exported="false" >
-96-->[com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:31:13-37
-97            <meta-data
-97-->[com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:32:13-34:85
-98                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-98-->[com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:33:17-109
-99                android:value="com.google.firebase.components.ComponentRegistrar" />
-99-->[com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:34:17-82
-100            <meta-data
-100-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
-101                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-101-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
-102                android:value="com.google.firebase.components.ComponentRegistrar" />
-102-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
-103            <meta-data
-103-->[com.google.firebase:firebase-firestore:23.0.3] /home/moringa/.gradle/caches/transforms-3/f9aee0cda849501db64afde87fec0768/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:20:13-22:85
-104                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-104-->[com.google.firebase:firebase-firestore:23.0.3] /home/moringa/.gradle/caches/transforms-3/f9aee0cda849501db64afde87fec0768/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:21:17-111
-105                android:value="com.google.firebase.components.ComponentRegistrar" />
-105-->[com.google.firebase:firebase-firestore:23.0.3] /home/moringa/.gradle/caches/transforms-3/f9aee0cda849501db64afde87fec0768/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:22:17-82
-106            <meta-data
-106-->[com.google.android.gms:play-services-measurement-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/9dcc7c6d1afd317f42d3ab94fa2bea04/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:30:13-32:85
-107                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-107-->[com.google.android.gms:play-services-measurement-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/9dcc7c6d1afd317f42d3ab94fa2bea04/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:31:17-139
-108                android:value="com.google.firebase.components.ComponentRegistrar" />
-108-->[com.google.android.gms:play-services-measurement-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/9dcc7c6d1afd317f42d3ab94fa2bea04/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:32:17-82
-109            <meta-data
-109-->[com.google.firebase:firebase-installations:17.0.0] /home/moringa/.gradle/caches/transforms-3/045ee3e52baef22a6f354e1b63ce65b6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
-110                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-110-->[com.google.firebase:firebase-installations:17.0.0] /home/moringa/.gradle/caches/transforms-3/045ee3e52baef22a6f354e1b63ce65b6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
-111                android:value="com.google.firebase.components.ComponentRegistrar" />
-111-->[com.google.firebase:firebase-installations:17.0.0] /home/moringa/.gradle/caches/transforms-3/045ee3e52baef22a6f354e1b63ce65b6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
-112        </service> <!-- Needs to be explicitly declared on P+ -->
-113        <uses-library
-113-->[com.google.android.gms:play-services-maps:17.0.0] /home/moringa/.gradle/caches/transforms-3/f8b21ff1e279e156e803ef6beb996573/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
-114            android:name="org.apache.http.legacy"
-114-->[com.google.android.gms:play-services-maps:17.0.0] /home/moringa/.gradle/caches/transforms-3/f8b21ff1e279e156e803ef6beb996573/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
-115            android:required="false" />
-115-->[com.google.android.gms:play-services-maps:17.0.0] /home/moringa/.gradle/caches/transforms-3/f8b21ff1e279e156e803ef6beb996573/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
-116
-117        <provider
-117-->[com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/94d89058c67ff24ffccce9c1d6cfc1a7/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
-118            android:name="com.squareup.picasso.PicassoProvider"
-118-->[com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/94d89058c67ff24ffccce9c1d6cfc1a7/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
-119            android:authorities="com.example.donner.com.squareup.picasso"
-119-->[com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/94d89058c67ff24ffccce9c1d6cfc1a7/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
-120            android:exported="false" />
-120-->[com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/94d89058c67ff24ffccce9c1d6cfc1a7/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
-121
-122        <activity
-122-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
-123            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-123-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
-124            android:excludeFromRecents="true"
-124-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
-125            android:exported="true"
-125-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
-126            android:launchMode="singleTask"
-126-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
-127            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-127-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
-128            <intent-filter>
-128-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
-129                <action android:name="android.intent.action.VIEW" />
-129-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
-129-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
-130
-131                <category android:name="android.intent.category.DEFAULT" />
-131-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
-131-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
-132                <category android:name="android.intent.category.BROWSABLE" />
-132-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
-132-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
-133
-134                <data
-134-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
-135                    android:host="firebase.auth"
-135-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
-136                    android:path="/"
-136-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
-137                    android:scheme="genericidp" />
-137-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
-138            </intent-filter>
-139        </activity>
-140        <activity
-140-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
-141            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-141-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
-142            android:excludeFromRecents="true"
-142-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
-143            android:exported="true"
-143-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
-144            android:launchMode="singleTask"
-144-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
-145            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-145-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
-146            <intent-filter>
-146-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
-147                <action android:name="android.intent.action.VIEW" />
-147-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
-147-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
-148
-149                <category android:name="android.intent.category.DEFAULT" />
-149-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
-149-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
-150                <category android:name="android.intent.category.BROWSABLE" />
-150-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
-150-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
-151
-152                <data
-152-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
-153                    android:host="firebase.auth"
-153-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
-154                    android:path="/"
-154-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
-155                    android:scheme="recaptcha" />
-155-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
-156            </intent-filter>
-157        </activity>
-158
-159        <service
-159-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
-160            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-160-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
-161            android:enabled="true"
-161-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
-162            android:exported="false" >
-162-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
-163            <intent-filter>
-163-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
-164                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-164-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
-164-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
-165
-166                <category android:name="android.intent.category.DEFAULT" />
-166-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
-166-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
-167            </intent-filter>
-168        </service>
-169
-170        <provider
-170-->[com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
-171            android:name="com.google.firebase.provider.FirebaseInitProvider"
-171-->[com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
-172            android:authorities="com.example.donner.firebaseinitprovider"
-172-->[com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
-173            android:directBootAware="true"
-173-->[com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
-174            android:exported="false"
-174-->[com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
-175            android:initOrder="100" />
-175-->[com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
-176
-177        <activity
-177-->[com.google.android.gms:play-services-base:17.1.0] /home/moringa/.gradle/caches/transforms-3/9917c1060ba2f79f3519a1b2bf642c2c/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-178            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-178-->[com.google.android.gms:play-services-base:17.1.0] /home/moringa/.gradle/caches/transforms-3/9917c1060ba2f79f3519a1b2bf642c2c/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
-179            android:exported="false"
-179-->[com.google.android.gms:play-services-base:17.1.0] /home/moringa/.gradle/caches/transforms-3/9917c1060ba2f79f3519a1b2bf642c2c/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-180            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-180-->[com.google.android.gms:play-services-base:17.1.0] /home/moringa/.gradle/caches/transforms-3/9917c1060ba2f79f3519a1b2bf642c2c/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
-181
-182        <receiver
-182-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:29:9-33:20
-183            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-183-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:30:13-85
-184            android:enabled="true"
-184-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:31:13-35
-185            android:exported="false" >
-185-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:32:13-37
-186        </receiver>
-187
-188        <service
-188-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:35:9-38:40
-189            android:name="com.google.android.gms.measurement.AppMeasurementService"
-189-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:36:13-84
-190            android:enabled="true"
-190-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:37:13-35
-191            android:exported="false" />
-191-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:38:13-37
-192        <service
-192-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:39:9-43:72
-193            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-193-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:40:13-87
-194            android:enabled="true"
-194-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:41:13-35
-195            android:exported="false"
-195-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:42:13-37
-196            android:permission="android.permission.BIND_JOB_SERVICE" />
-196-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:43:13-69
-197
-198        <meta-data
-198-->[com.google.android.gms:play-services-basement:17.1.0] /home/moringa/.gradle/caches/transforms-3/6adff63397c1ac50e331d47bdf613af2/transformed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
-199            android:name="com.google.android.gms.version"
-199-->[com.google.android.gms:play-services-basement:17.1.0] /home/moringa/.gradle/caches/transforms-3/6adff63397c1ac50e331d47bdf613af2/transformed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
-200            android:value="@integer/google_play_services_version" />
-200-->[com.google.android.gms:play-services-basement:17.1.0] /home/moringa/.gradle/caches/transforms-3/6adff63397c1ac50e331d47bdf613af2/transformed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
-201    </application>
-202
-203</manifest>
+43        <activity
+43-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:28:9-30:39
+44            android:name="com.example.donner.DonPanellActivity"
+44-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:29:13-46
+45            android:exported="true" />
+45-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:30:13-36
+46        <!--
+47             The API key for Google Maps-based APIs is defined as a string resource.
+48             (See the file "res/values/google_maps_api.xml").
+49             Note that the API key is linked to the encryption key used to sign the APK.
+50             You need a different API key for each encryption key, including the release key that is used to
+51             sign the APK for publishing.
+52             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+53        -->
+54        <meta-data
+54-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:39:9-41:55
+55            android:name="com.google.android.geo.API_KEY"
+55-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:40:13-58
+56            android:value="@string/google_maps_key" />
+56-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:41:13-52
+57
+58        <activity
+58-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:43:9-46:63
+59            android:name="com.example.donner.LocationActivity"
+59-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:44:13-45
+60            android:exported="true"
+60-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:45:13-36
+61            android:label="@string/title_activity_location" />
+61-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:46:13-60
+62        <activity
+62-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:47:9-49:39
+63            android:name="com.example.donner.AddDonation"
+63-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:48:13-40
+64            android:exported="true" />
+64-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:49:13-36
+65        <activity
+65-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:50:9-52:39
+66            android:name="com.example.donner.SignupActivity"
+66-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:51:13-43
+67            android:exported="true" />
+67-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:52:13-36
+68        <activity
+68-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:53:9-61:20
+69            android:name="com.example.donner.SplashScreenActivity"
+69-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:54:13-49
+70            android:exported="true" >
+70-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:55:13-36
+71            <intent-filter>
+71-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:56:13-60:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:57:17-69
+72-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:57:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:59:17-77
+74-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:59:27-74
+75            </intent-filter>
+76        </activity>
+77        <activity
+77-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:62:9-64:39
+78            android:name="com.example.donner.DonationActivity"
+78-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:63:13-45
+79            android:exported="true" />
+79-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:64:13-36
+80        <activity
+80-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:65:9-68:45
+81            android:name="com.example.donner.LoginActivity"
+81-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:66:13-42
+82            android:exported="true" />
+82-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:67:13-36
+83        <activity
+83-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:69:9-79:20
+84            android:name="com.example.donner.MainActivity"
+84-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:70:13-41
+85            android:exported="true" >
+85-->/home/moringa/AndroidStudioProjects/doner/app/src/main/AndroidManifest.xml:71:13-36
+86
+87            <!-- <intent-filter> -->
+88            <!-- <action android:name="android.intent.action.MAIN" /> -->
+89
+90
+91            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+92            <!-- </intent-filter> -->
+93        </activity>
+94
+95        <service
+95-->[com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:29:9-35:19
+96            android:name="com.google.firebase.components.ComponentDiscoveryService"
+96-->[com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:30:13-84
+97            android:directBootAware="true"
+97-->[com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+98            android:exported="false" >
+98-->[com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:31:13-37
+99            <meta-data
+99-->[com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:32:13-34:85
+100                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+100-->[com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:33:17-109
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-database:20.0.2] /home/moringa/.gradle/caches/transforms-3/31a6a937917b778354272211aae1edba/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:34:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+103                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+103-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-firestore:23.0.3] /home/moringa/.gradle/caches/transforms-3/f9aee0cda849501db64afde87fec0768/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:20:13-22:85
+106                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+106-->[com.google.firebase:firebase-firestore:23.0.3] /home/moringa/.gradle/caches/transforms-3/f9aee0cda849501db64afde87fec0768/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:21:17-111
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-firestore:23.0.3] /home/moringa/.gradle/caches/transforms-3/f9aee0cda849501db64afde87fec0768/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:22:17-82
+108            <meta-data
+108-->[com.google.android.gms:play-services-measurement-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/9dcc7c6d1afd317f42d3ab94fa2bea04/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:30:13-32:85
+109                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+109-->[com.google.android.gms:play-services-measurement-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/9dcc7c6d1afd317f42d3ab94fa2bea04/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:31:17-139
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.android.gms:play-services-measurement-api:19.0.1] /home/moringa/.gradle/caches/transforms-3/9dcc7c6d1afd317f42d3ab94fa2bea04/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:32:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-installations:17.0.0] /home/moringa/.gradle/caches/transforms-3/045ee3e52baef22a6f354e1b63ce65b6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+112                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+112-->[com.google.firebase:firebase-installations:17.0.0] /home/moringa/.gradle/caches/transforms-3/045ee3e52baef22a6f354e1b63ce65b6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-installations:17.0.0] /home/moringa/.gradle/caches/transforms-3/045ee3e52baef22a6f354e1b63ce65b6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+114        </service> <!-- Needs to be explicitly declared on P+ -->
+115        <uses-library
+115-->[com.google.android.gms:play-services-maps:17.0.0] /home/moringa/.gradle/caches/transforms-3/f8b21ff1e279e156e803ef6beb996573/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+116            android:name="org.apache.http.legacy"
+116-->[com.google.android.gms:play-services-maps:17.0.0] /home/moringa/.gradle/caches/transforms-3/f8b21ff1e279e156e803ef6beb996573/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+117            android:required="false" />
+117-->[com.google.android.gms:play-services-maps:17.0.0] /home/moringa/.gradle/caches/transforms-3/f8b21ff1e279e156e803ef6beb996573/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+118
+119        <provider
+119-->[com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/94d89058c67ff24ffccce9c1d6cfc1a7/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+120            android:name="com.squareup.picasso.PicassoProvider"
+120-->[com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/94d89058c67ff24ffccce9c1d6cfc1a7/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+121            android:authorities="com.example.donner.com.squareup.picasso"
+121-->[com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/94d89058c67ff24ffccce9c1d6cfc1a7/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+122            android:exported="false" />
+122-->[com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/94d89058c67ff24ffccce9c1d6cfc1a7/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+123
+124        <activity
+124-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+125            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+125-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+126            android:excludeFromRecents="true"
+126-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+127            android:exported="true"
+127-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+128            android:launchMode="singleTask"
+128-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+129            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+129-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+130            <intent-filter>
+130-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+131                <action android:name="android.intent.action.VIEW" />
+131-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+131-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+132
+133                <category android:name="android.intent.category.DEFAULT" />
+133-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+133-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+134                <category android:name="android.intent.category.BROWSABLE" />
+134-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+134-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+135
+136                <data
+136-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+137                    android:host="firebase.auth"
+137-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+138                    android:path="/"
+138-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+139                    android:scheme="genericidp" />
+139-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+140            </intent-filter>
+141        </activity>
+142        <activity
+142-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+143            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+143-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+144            android:excludeFromRecents="true"
+144-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+145            android:exported="true"
+145-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+146            android:launchMode="singleTask"
+146-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+147            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+147-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+148            <intent-filter>
+148-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+149                <action android:name="android.intent.action.VIEW" />
+149-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+149-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+150
+151                <category android:name="android.intent.category.DEFAULT" />
+151-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+151-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+152                <category android:name="android.intent.category.BROWSABLE" />
+152-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+152-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+153
+154                <data
+154-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+155                    android:host="firebase.auth"
+155-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+156                    android:path="/"
+156-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+157                    android:scheme="recaptcha" />
+157-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+158            </intent-filter>
+159        </activity>
+160
+161        <service
+161-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+162            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+162-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+163            android:enabled="true"
+163-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+164            android:exported="false" >
+164-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+165            <intent-filter>
+165-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+166                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+166-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+166-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+167
+168                <category android:name="android.intent.category.DEFAULT" />
+168-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+168-->[com.google.firebase:firebase-auth:21.0.1] /home/moringa/.gradle/caches/transforms-3/4a5bd81f2d39381151216137588893e3/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+169            </intent-filter>
+170        </service>
+171
+172        <provider
+172-->[com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+173            android:name="com.google.firebase.provider.FirebaseInitProvider"
+173-->[com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+174            android:authorities="com.example.donner.firebaseinitprovider"
+174-->[com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+175            android:directBootAware="true"
+175-->[com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+176            android:exported="false"
+176-->[com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+177            android:initOrder="100" />
+177-->[com.google.firebase:firebase-common:20.0.0] /home/moringa/.gradle/caches/transforms-3/86e13b6ca81a6c901885b317cb2ca953/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+178
+179        <activity
+179-->[com.google.android.gms:play-services-base:17.1.0] /home/moringa/.gradle/caches/transforms-3/9917c1060ba2f79f3519a1b2bf642c2c/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+180            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+180-->[com.google.android.gms:play-services-base:17.1.0] /home/moringa/.gradle/caches/transforms-3/9917c1060ba2f79f3519a1b2bf642c2c/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+181            android:exported="false"
+181-->[com.google.android.gms:play-services-base:17.1.0] /home/moringa/.gradle/caches/transforms-3/9917c1060ba2f79f3519a1b2bf642c2c/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+182            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+182-->[com.google.android.gms:play-services-base:17.1.0] /home/moringa/.gradle/caches/transforms-3/9917c1060ba2f79f3519a1b2bf642c2c/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+183
+184        <receiver
+184-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:29:9-33:20
+185            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+185-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:30:13-85
+186            android:enabled="true"
+186-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:31:13-35
+187            android:exported="false" >
+187-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:32:13-37
+188        </receiver>
+189
+190        <service
+190-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:35:9-38:40
+191            android:name="com.google.android.gms.measurement.AppMeasurementService"
+191-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:36:13-84
+192            android:enabled="true"
+192-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:37:13-35
+193            android:exported="false" />
+193-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:38:13-37
+194        <service
+194-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:39:9-43:72
+195            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+195-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:40:13-87
+196            android:enabled="true"
+196-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:41:13-35
+197            android:exported="false"
+197-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:42:13-37
+198            android:permission="android.permission.BIND_JOB_SERVICE" />
+198-->[com.google.android.gms:play-services-measurement:19.0.1] /home/moringa/.gradle/caches/transforms-3/714504ae62e321cf1b9b21d83fb70c44/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:43:13-69
+199
+200        <meta-data
+200-->[com.google.android.gms:play-services-basement:17.1.0] /home/moringa/.gradle/caches/transforms-3/6adff63397c1ac50e331d47bdf613af2/transformed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+201            android:name="com.google.android.gms.version"
+201-->[com.google.android.gms:play-services-basement:17.1.0] /home/moringa/.gradle/caches/transforms-3/6adff63397c1ac50e331d47bdf613af2/transformed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
+202            android:value="@integer/google_play_services_version" />
+202-->[com.google.android.gms:play-services-basement:17.1.0] /home/moringa/.gradle/caches/transforms-3/6adff63397c1ac50e331d47bdf613af2/transformed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
+203    </application>
+204
+205</manifest>

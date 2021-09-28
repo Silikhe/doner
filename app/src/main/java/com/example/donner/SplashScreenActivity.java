@@ -6,15 +6,23 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.WindowManager;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 
 public class SplashScreenActivity extends AppCompatActivity {
 
-    private static int SPLASH_SCREEN_TIME_OUT=1000;
+    private static int SPLASH_SCREEN_TIME_OUT=4000;
+    private ImageView splash_image;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
+
+        splash_image = (ImageView) findViewById(R.id.splash_image);
+        Animation animation = AnimationUtils.loadAnimation(this, R.anim.animation_file);
+        splash_image.startAnimation(animation);
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);

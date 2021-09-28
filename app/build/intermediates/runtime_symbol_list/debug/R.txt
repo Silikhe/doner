@@ -10,6 +10,7 @@ int anim abc_slide_out_bottom 0x7f010008
 int anim abc_slide_out_top 0x7f010009
 int anim abc_tooltip_enter 0x7f01000a
 int anim abc_tooltip_exit 0x7f01000b
+int anim animation_file 0x7f010020
 int anim btn_checkbox_to_checked_box_inner_merged_animation 0x7f01000c
 int anim btn_checkbox_to_checked_box_outer_merged_animation 0x7f01000d
 int anim btn_checkbox_to_checked_icon_null_animation 0x7f01000e
@@ -30,6 +31,8 @@ int anim fragment_fast_out_extra_slow_in 0x7f01001c
 int anim mtrl_bottom_sheet_slide_in 0x7f01001d
 int anim mtrl_bottom_sheet_slide_out 0x7f01001e
 int anim mtrl_card_lowers_interpolator 0x7f01001f
+int anim slide_in_left 0x7f010021
+int anim slide_in_right 0x7f010022
 int animator design_appbar_state_list_animator 0x7f020000
 int animator design_fab_hide_motion_spec 0x7f020001
 int animator design_fab_show_motion_spec 0x7f020002
@@ -651,6 +654,23 @@ int attr listPreferredItemPaddingStart 0x7f030243
 int attr liteMode 0x7f0303f1
 int attr logo 0x7f030244
 int attr logoDescription 0x7f030245
+int attr lottieAnimationViewStyle 0x7f0303fd
+int attr lottie_autoPlay 0x7f0303fe
+int attr lottie_cacheComposition 0x7f0303ff
+int attr lottie_colorFilter 0x7f030400
+int attr lottie_enableMergePathsForKitKatAndAbove 0x7f030401
+int attr lottie_fallbackRes 0x7f030402
+int attr lottie_fileName 0x7f030403
+int attr lottie_imageAssetsFolder 0x7f030404
+int attr lottie_loop 0x7f030405
+int attr lottie_progress 0x7f030406
+int attr lottie_rawRes 0x7f030407
+int attr lottie_renderMode 0x7f030408
+int attr lottie_repeatCount 0x7f030409
+int attr lottie_repeatMode 0x7f03040a
+int attr lottie_scale 0x7f03040b
+int attr lottie_speed 0x7f03040c
+int attr lottie_url 0x7f03040d
 int attr mapType 0x7f0303f2
 int attr materialAlertDialogBodyTextStyle 0x7f030246
 int attr materialAlertDialogTheme 0x7f030247
@@ -1852,6 +1872,7 @@ int drawable design_ic_visibility_off 0x7f070078
 int drawable design_password_eye 0x7f070079
 int drawable design_snackbar_background 0x7f07007a
 int drawable donate 0x7f07007b
+int drawable dress 0x7f0700b4
 int drawable et_custom 0x7f07007c
 int drawable googleg_disabled_color_18 0x7f07007d
 int drawable googleg_standard_color_18 0x7f07007e
@@ -1904,9 +1925,13 @@ int drawable notification_template_icon_low_bg 0x7f0700ab
 int drawable notification_tile_bg 0x7f0700ac
 int drawable notify_panel_notification_icon_bg 0x7f0700ad
 int drawable progress_back 0x7f0700ae
+int drawable shirt 0x7f0700b5
+int drawable shoes 0x7f0700b6
+int drawable sweater 0x7f0700b8
 int drawable test_custom_background 0x7f0700af
 int drawable tooltip_frame_dark 0x7f0700b0
 int drawable tooltip_frame_light 0x7f0700b1
+int drawable trouser 0x7f0700b7
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
@@ -1978,6 +2003,7 @@ int id action_text 0x7f080043
 int id actions 0x7f080044
 int id activity_chooser_view_content 0x7f080045
 int id add 0x7f080046
+int id addDonBtn 0x7f080217
 int id adjust_height 0x7f080047
 int id adjust_width 0x7f080048
 int id alertTitle 0x7f080049
@@ -1996,6 +2022,7 @@ int id auto 0x7f080055
 int id autoComplete 0x7f080056
 int id autoCompleteToEnd 0x7f080057
 int id autoCompleteToStart 0x7f080058
+int id automatic 0x7f080210
 int id barrier 0x7f080059
 int id baseline 0x7f08005a
 int id beginOnFirstDraw 0x7f08005b
@@ -2013,12 +2040,18 @@ int id browser_actions_menu_item_icon 0x7f080066
 int id browser_actions_menu_item_text 0x7f080067
 int id browser_actions_menu_items 0x7f080068
 int id browser_actions_menu_view 0x7f080069
+int id bt_down 0x7f080211
 int id btn_login 0x7f08006a
 int id btn_sign 0x7f08006b
 int id btn_toSignup 0x7f08006c
 int id buttonPanel 0x7f08006d
 int id cache_measures 0x7f08006e
 int id cancel_button 0x7f08006f
+int id cardView2 0x7f080219
+int id cardView3 0x7f08021a
+int id cardView5 0x7f08021b
+int id cardView6 0x7f08021c
+int id cardView7 0x7f08021f
 int id carryVelocity 0x7f080070
 int id center 0x7f080071
 int id center_horizontal 0x7f080072
@@ -2130,6 +2163,7 @@ int id group_divider 0x7f0800db
 int id grouping 0x7f0800dc
 int id groups 0x7f0800dd
 int id guideline 0x7f0800de
+int id hardware 0x7f080212
 int id header_title 0x7f0800df
 int id hideable 0x7f0800e0
 int id home 0x7f0800e1
@@ -2144,8 +2178,6 @@ int id ifRoom 0x7f0800e8
 int id ignore 0x7f0800e9
 int id ignoreRequest 0x7f0800ea
 int id image 0x7f0800eb
-int id imageView 0x7f0800ec
-int id imageView3 0x7f0800ed
 int id imageView4 0x7f0800ee
 int id imgSign 0x7f0800ef
 int id img_url 0x7f0800f0
@@ -2172,6 +2204,7 @@ int id listMode 0x7f080104
 int id list_item 0x7f080105
 int id logo_text 0x7f080106
 int id logout 0x7f080107
+int id lottie_layer_name 0x7f080213
 int id map 0x7f08020c
 int id masked 0x7f080108
 int id match_constraint 0x7f080109
@@ -2270,6 +2303,8 @@ int id progress_horizontal 0x7f080165
 int id radio 0x7f080166
 int id ratio 0x7f080167
 int id rectangles 0x7f080168
+int id restart 0x7f080214
+int id reverse 0x7f080215
 int id reverseSawtooth 0x7f080169
 int id right 0x7f08016a
 int id rightToLeft 0x7f08016b
@@ -2315,9 +2350,11 @@ int id snackbar_action 0x7f080191
 int id snackbar_text 0x7f080192
 int id snap 0x7f080193
 int id snapMargins 0x7f080194
+int id software 0x7f080216
 int id south 0x7f080195
 int id spacer 0x7f080196
 int id special_effects_controller_view_tag 0x7f080197
+int id splash_image 0x7f08020f
 int id spline 0x7f080198
 int id split_action_bar 0x7f080199
 int id spread 0x7f08019a
@@ -2376,6 +2413,10 @@ int id textStart 0x7f0801cd
 int id textTop 0x7f0801ce
 int id textView 0x7f0801cf
 int id textView10 0x7f0801d0
+int id textView11 0x7f08021d
+int id textView12 0x7f08021e
+int id textView13 0x7f080220
+int id textView14 0x7f080221
 int id textView2 0x7f0801d1
 int id textView3 0x7f0801d2
 int id textView4 0x7f0801d3
@@ -2503,6 +2544,7 @@ int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_add_donation 0x7f0b001c
+int layout activity_don_panell 0x7f0b007d
 int layout activity_donation 0x7f0b001d
 int layout activity_location 0x7f0b007c
 int layout activity_login 0x7f0b001e
@@ -2748,7 +2790,6 @@ int style Animation_AppCompat_DropDownUp 0x7f100005
 int style Animation_AppCompat_Tooltip 0x7f100006
 int style Animation_Design_BottomSheetDialog 0x7f100007
 int style Animation_MaterialComponents_BottomSheetDialog 0x7f100008
-int style AppTheme 0x7f100009
 int style Base_AlertDialog_AppCompat 0x7f10000a
 int style Base_AlertDialog_AppCompat_Light 0x7f10000b
 int style Base_Animation_AppCompat_Dialog 0x7f10000c
@@ -3463,6 +3504,7 @@ int style Widget_MaterialComponents_Toolbar_PrimarySurface 0x7f1002d0
 int style Widget_MaterialComponents_Toolbar_Surface 0x7f1002d1
 int style Widget_MaterialComponents_Tooltip 0x7f1002d2
 int style Widget_Support_CoordinatorLayout 0x7f1002d3
+int style circleImageView 0x7f1002d4
 int[] styleable ActionBar { 0x7f030041, 0x7f030048, 0x7f030049, 0x7f0300ee, 0x7f0300ef, 0x7f0300f0, 0x7f0300f1, 0x7f0300f2, 0x7f0300f3, 0x7f030119, 0x7f03012a, 0x7f03012b, 0x7f030143, 0x7f03019a, 0x7f0301a1, 0x7f0301a7, 0x7f0301a8, 0x7f0301ab, 0x7f0301be, 0x7f0301d0, 0x7f030244, 0x7f03029b, 0x7f0302ca, 0x7f0302d1, 0x7f0302d2, 0x7f03032f, 0x7f030333, 0x7f03039b, 0x7f0303a7 }
 int styleable ActionBar_background 0
 int styleable ActionBar_backgroundSplit 1
@@ -4693,6 +4735,23 @@ int[] styleable LoadingImageView { 0x7f0300b2, 0x7f0301b6, 0x7f0301b7 }
 int styleable LoadingImageView_circleCrop 0
 int styleable LoadingImageView_imageAspectRatio 1
 int styleable LoadingImageView_imageAspectRatioAdjust 2
+int[] styleable LottieAnimationView { 0x7f0303fe, 0x7f0303ff, 0x7f030400, 0x7f030401, 0x7f030402, 0x7f030403, 0x7f030404, 0x7f030405, 0x7f030406, 0x7f030407, 0x7f030408, 0x7f030409, 0x7f03040a, 0x7f03040b, 0x7f03040c, 0x7f03040d }
+int styleable LottieAnimationView_lottie_autoPlay 0
+int styleable LottieAnimationView_lottie_cacheComposition 1
+int styleable LottieAnimationView_lottie_colorFilter 2
+int styleable LottieAnimationView_lottie_enableMergePathsForKitKatAndAbove 3
+int styleable LottieAnimationView_lottie_fallbackRes 4
+int styleable LottieAnimationView_lottie_fileName 5
+int styleable LottieAnimationView_lottie_imageAssetsFolder 6
+int styleable LottieAnimationView_lottie_loop 7
+int styleable LottieAnimationView_lottie_progress 8
+int styleable LottieAnimationView_lottie_rawRes 9
+int styleable LottieAnimationView_lottie_renderMode 10
+int styleable LottieAnimationView_lottie_repeatCount 11
+int styleable LottieAnimationView_lottie_repeatMode 12
+int styleable LottieAnimationView_lottie_scale 13
+int styleable LottieAnimationView_lottie_speed 14
+int styleable LottieAnimationView_lottie_url 15
 int[] styleable MapAttrs { 0x7f0303e5, 0x7f0303e6, 0x7f0303e7, 0x7f0303e8, 0x7f0303e9, 0x7f0303ea, 0x7f0303eb, 0x7f0303ec, 0x7f0303ed, 0x7f0303ee, 0x7f0303ef, 0x7f0303f0, 0x7f0303f1, 0x7f0303f2, 0x7f0303f3, 0x7f0303f4, 0x7f0303f5, 0x7f0303f6, 0x7f0303f7, 0x7f0303f8, 0x7f0303f9, 0x7f0303fa, 0x7f0303fb, 0x7f0303fc }
 int styleable MapAttrs_ambientEnabled 0
 int styleable MapAttrs_cameraBearing 1

@@ -12,8 +12,11 @@ import android.os.PatternMatcher;
 import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
@@ -35,8 +38,8 @@ public class SignupActivity extends AppCompatActivity {
     Button btn;
     private String pass, conPass, email;
     protected Context context;
-//    protected ProgressBar progressBar;
-
+    //    protected ProgressBar progressBar;
+    private ImageView splash_image;
 
 
     @Override
@@ -46,10 +49,14 @@ public class SignupActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
 
+        splash_image = (ImageView) findViewById(R.id.imgSign);
+        Animation animation = AnimationUtils.loadAnimation(this, R.anim.animation_file);
+        splash_image.startAnimation(animation);
+
         btn = (Button) findViewById(R.id.btn_sign);
         btn.setOnClickListener((view) -> {
 //            if (validateInput())
-                createUser();
+            createUser();
         });
     }
 
@@ -57,7 +64,7 @@ public class SignupActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         FirebaseUser user = mAuth.getCurrentUser();
-        if (user != null){
+        if (user != null) {
             Toast.makeText(SignupActivity.this, "User already signed up & logged in!", Toast.LENGTH_LONG).show();
             Intent intent = new Intent(SignupActivity.this, DonationActivity.class);
             startActivity(intent);
@@ -75,30 +82,30 @@ public class SignupActivity extends AppCompatActivity {
 
 
         if (Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-                mAuth.createUserWithEmailAndPassword(email, pass)
-                        .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-                            @Override
-                            public void onComplete(@NonNull Task<AuthResult> task) {
+            mAuth.createUserWithEmailAndPassword(email, pass)
+                    .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                        @Override
+                        public void onComplete(@NonNull Task<AuthResult> task) {
 //                                progressBar.setVisibility(View.GONE);
-                                if (task.isSuccessful()) {
+                            if (task.isSuccessful()) {
 //                                    FirebaseUser user = mAuth.getCurrentUser();
-                                    Toast.makeText(SignupActivity.this, " Signed Up Successfully!", Toast.LENGTH_LONG).show();
-                                    startActivity(new Intent(SignupActivity.this, LoginActivity.class));
-                                    finish();
+                                Toast.makeText(SignupActivity.this, " Signed Up Successfully!", Toast.LENGTH_LONG).show();
+                                startActivity(new Intent(SignupActivity.this, LoginActivity.class));
+                                finish();
 //                                    Dialog.OnF
 //                                    DialogChooser.failCreateUser(context);
 //                                    sendVerificationEmail();
-                                } else {
-                                    Toast.makeText(SignupActivity.this, " Registration Failed.!", Toast.LENGTH_LONG).show();
-                                }
-
+                            } else {
+                                Toast.makeText(SignupActivity.this, " Registration Failed.!", Toast.LENGTH_LONG).show();
                             }
-                        }).addOnFailureListener(new OnFailureListener() {
-                    @Override
-                    public void onFailure(@NonNull Exception e) {
-                        Toast.makeText(SignupActivity.this, " Registration Failed.!", Toast.LENGTH_LONG).show();
-                    }
-                });
+
+                        }
+                    }).addOnFailureListener(new OnFailureListener() {
+                @Override
+                public void onFailure(@NonNull Exception e) {
+                    Toast.makeText(SignupActivity.this, " Registration Failed.!", Toast.LENGTH_LONG).show();
+                }
+            });
         } else {
 //            mEmail.setError("Please enter Correct Email or Password");
             Toast.makeText(SignupActivity.this, " Please enter Correct Email or Password!", Toast.LENGTH_LONG).show();

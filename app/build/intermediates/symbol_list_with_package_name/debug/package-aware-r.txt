@@ -11,6 +11,7 @@ anim abc_slide_out_bottom
 anim abc_slide_out_top
 anim abc_tooltip_enter
 anim abc_tooltip_exit
+anim animation_file
 anim btn_checkbox_to_checked_box_inner_merged_animation
 anim btn_checkbox_to_checked_box_outer_merged_animation
 anim btn_checkbox_to_checked_icon_null_animation
@@ -31,6 +32,8 @@ anim fragment_fast_out_extra_slow_in
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
+anim slide_in_left
+anim slide_in_right
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -652,6 +655,23 @@ attr listPreferredItemPaddingStart
 attr liteMode
 attr logo
 attr logoDescription
+attr lottieAnimationViewStyle
+attr lottie_autoPlay
+attr lottie_cacheComposition
+attr lottie_colorFilter
+attr lottie_enableMergePathsForKitKatAndAbove
+attr lottie_fallbackRes
+attr lottie_fileName
+attr lottie_imageAssetsFolder
+attr lottie_loop
+attr lottie_progress
+attr lottie_rawRes
+attr lottie_renderMode
+attr lottie_repeatCount
+attr lottie_repeatMode
+attr lottie_scale
+attr lottie_speed
+attr lottie_url
 attr mapType
 attr materialAlertDialogBodyTextStyle
 attr materialAlertDialogTheme
@@ -1853,6 +1873,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable donate
+drawable dress
 drawable et_custom
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
@@ -1905,9 +1926,13 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable progress_back
+drawable shirt
+drawable shoes
+drawable sweater
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable trouser
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1979,6 +2004,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addDonBtn
 id adjust_height
 id adjust_width
 id alertTitle
@@ -1997,6 +2023,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id automatic
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2014,12 +2041,18 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id bt_down
 id btn_login
 id btn_sign
 id btn_toSignup
 id buttonPanel
 id cache_measures
 id cancel_button
+id cardView2
+id cardView3
+id cardView5
+id cardView6
+id cardView7
 id carryVelocity
 id center
 id center_horizontal
@@ -2131,6 +2164,7 @@ id group_divider
 id grouping
 id groups
 id guideline
+id hardware
 id header_title
 id hideable
 id home
@@ -2145,8 +2179,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView
-id imageView3
 id imageView4
 id imgSign
 id img_url
@@ -2173,6 +2205,7 @@ id listMode
 id list_item
 id logo_text
 id logout
+id lottie_layer_name
 id map
 id masked
 id match_constraint
@@ -2271,6 +2304,8 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id restart
+id reverse
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2316,9 +2351,11 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id software
 id south
 id spacer
 id special_effects_controller_view_tag
+id splash_image
 id spline
 id split_action_bar
 id spread
@@ -2377,6 +2414,10 @@ id textStart
 id textTop
 id textView
 id textView10
+id textView11
+id textView12
+id textView13
+id textView14
 id textView2
 id textView3
 id textView4
@@ -2504,6 +2545,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_donation
+layout activity_don_panell
 layout activity_donation
 layout activity_location
 layout activity_login
@@ -2749,7 +2791,6 @@ style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style Animation_MaterialComponents_BottomSheetDialog
-style AppTheme
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
@@ -3464,6 +3505,7 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style circleImageView
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth
@@ -3537,6 +3579,7 @@ styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width 
 styleable LinearProgressIndicator indeterminateAnimationType indicatorDirectionLinear
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
 styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
+styleable LottieAnimationView lottie_autoPlay lottie_cacheComposition lottie_colorFilter lottie_enableMergePathsForKitKatAndAbove lottie_fallbackRes lottie_fileName lottie_imageAssetsFolder lottie_loop lottie_progress lottie_rawRes lottie_renderMode lottie_repeatCount lottie_repeatMode lottie_scale lottie_speed lottie_url
 styleable MapAttrs ambientEnabled cameraBearing cameraMaxZoomPreference cameraMinZoomPreference cameraTargetLat cameraTargetLng cameraTilt cameraZoom latLngBoundsNorthEastLatitude latLngBoundsNorthEastLongitude latLngBoundsSouthWestLatitude latLngBoundsSouthWestLongitude liteMode mapType uiCompass uiMapToolbar uiRotateGestures uiScrollGestures uiScrollGesturesDuringRotateOrZoom uiTiltGestures uiZoomControls uiZoomGestures useViewLifecycle zOrderOnTop
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle

@@ -7,15 +7,32 @@
     android:background="@color/white"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
+
+    <!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:srcCompat="@drawable/main1" />-->
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/bt_down"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
         android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/main1" />
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="data.json"
+        app:lottie_loop="true"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView4"

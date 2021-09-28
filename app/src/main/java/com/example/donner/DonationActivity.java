@@ -108,7 +108,7 @@ public class DonationActivity extends AppCompatActivity implements StoryRVAdapte
             public void onClick(View view) {
                 Intent intent = new Intent(DonationActivity.this, AddDonation.class);
                 startActivity(intent);
-                Toast.makeText(DonationActivity.this, "fab clicked", Toast.LENGTH_LONG).show();
+//                Toast.makeText(DonationActivity.this, "fab clicked", Toast.LENGTH_LONG).show();
             }
         });
 
