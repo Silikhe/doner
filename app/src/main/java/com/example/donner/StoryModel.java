@@ -71,6 +71,16 @@ public class StoryModel implements Parcelable {
         return 0;
     }
 
+//    @Override
+//    public String toString() {
+//        return "StoryModel{" +
+//                "storyTitle='" + storyTitle + '\'' +
+//                ", storyDesc='" + storyDesc + '\'' +
+//                ", storyImage='" + storyImage + '\'' +
+//                ", storyId='" + storyId + '\'' +
+//                '}';
+//    }
+
     @Override
     public void writeToParcel(Parcel parcel, int i) {
         parcel.writeString(storyTitle);

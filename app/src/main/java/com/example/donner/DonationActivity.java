@@ -33,6 +33,7 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -49,7 +50,7 @@ public class DonationActivity extends AppCompatActivity implements StoryRVAdapte
     private FloatingActionButton donateFab;
     private FirebaseDatabase firebaseDatabase;
     private DatabaseReference databaseReference;
-    private ArrayList<StoryModel> storyModels;
+    private ArrayList<StoryModel> storyList;
     private RelativeLayout bottomSheet;
     private StoryRVAdapter storyRVAdapter;
     private FirebaseAuth mAuth;
@@ -97,11 +98,13 @@ public class DonationActivity extends AppCompatActivity implements StoryRVAdapte
         progressBar = (ProgressBar) findViewById(R.id.pbLoading);
         firebaseDatabase = FirebaseDatabase.getInstance();
         databaseReference = firebaseDatabase.getReference("Stories");
-        storyModels = new ArrayList<>();
+        storyList = new ArrayList<>();
         bottomSheet = (RelativeLayout) findViewById(R.id.donRl);
-        storyRVAdapter = new StoryRVAdapter(storyModels, this, this);
+
+        storyRVAdapter = new StoryRVAdapter(storyList, this, this);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(storyRVAdapter);
+
         addDonations = findViewById(R.id.iv_add_donation);
         mAuth = FirebaseAuth.getInstance();
 
@@ -128,45 +131,25 @@ public class DonationActivity extends AppCompatActivity implements StoryRVAdapte
     }
 
     private void getAllStories() {
-        storyModels.clear();
+        storyList.clear();
 
 
-        databaseReference.addChildEventListener(new ChildEventListener() {
+        databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
-            public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
                 progressBar.setVisibility(View.GONE);
-
-//                storyModels.add(snapshot.getValue(StoryModel.class));
+                for (DataSnapshot dataSnapshot: snapshot.getChildren()){
+                    StoryModel storyModel = dataSnapshot.getValue(StoryModel.class);
+                    storyList.add(storyModel);
+                }
+//                storyList.add(snapshot.getValue(StoryModel.class));
                 storyRVAdapter.notifyDataSetChanged();
-
-//                if (snapshot.child("storyDesc").exists() &&
-//                        snapshot.child("storyTitle").exists() &&
-//                        snapshot.child("storyImage").exists()){
-//                    Log.d(TAG, "onChildChanged:" + snapshot.toString());
-//                    StoryModel command = snapshot.getValue(StoryModel.class);
-//                }
-            }
-
-            @Override
-            public void onChildChanged(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-                progressBar.setVisibility(View.GONE);
-                storyRVAdapter.notifyDataSetChanged();
-            }
-
-            @Override
-            public void onChildRemoved(@NonNull DataSnapshot snapshot) {
-                progressBar.setVisibility(View.GONE);
-                storyRVAdapter.notifyDataSetChanged();
-            }
-
-            @Override
-            public void onChildMoved(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-
             }
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-
+                progressBar.setVisibility(View.GONE);
+                storyRVAdapter.notifyDataSetChanged();
             }
         });
     }
@@ -193,7 +176,7 @@ public class DonationActivity extends AppCompatActivity implements StoryRVAdapte
 
     @Override
     public void onStoryClick(int position) {
-        displayBottomSheet(storyModels.get(position));
+        displayBottomSheet(storyList.get(position));
     }
 
     private void displayBottomSheet(StoryModel storyModel) {
@@ -210,3 +193,42 @@ public class DonationActivity extends AppCompatActivity implements StoryRVAdapte
 
 
 }
+//
+//
+//new ChildEventListener() {
+//@Override
+//public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+//        progressBar.setVisibility(View.GONE);
+//
+////                snapshot.toString();
+////                StoryModel storyModel = snapshot.getValue(StoryModel.class);
+////                Toast.makeText(context, "URL" + storyModel.getStoryDesc(), Toast.LENGTH_SHORT).show();
+//        storyList.add(snapshot.getValue(StoryModel.class));
+//        storyRVAdapter.notifyDataSetChanged();
+//
+////
+//        }
+//
+//@Override
+//public void onChildChanged(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+//        progressBar.setVisibility(View.GONE);
+//        storyRVAdapter.notifyDataSetChanged();
+////
+//        }
+//
+//@Override
+//public void onChildRemoved(@NonNull DataSnapshot snapshot) {
+//        progressBar.setVisibility(View.GONE);
+//        storyRVAdapter.notifyDataSetChanged();
+//        }
+//
+//@Override
+//public void onChildMoved(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+//
+//        }
+//
+//@Override
+//public void onCancelled(@NonNull DatabaseError error) {
+//
+//        }
+//        }

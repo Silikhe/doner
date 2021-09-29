@@ -20,12 +20,12 @@
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/login.xml"
     },
     {
-        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/layout_activity_login.xml.flat",
-        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/layout/activity_login.xml"
-    },
-    {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_dress.png.flat",
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/dress.png"
+    },
+    {
+        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/layout_activity_login.xml.flat",
+        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/layout/activity_login.xml"
     },
     {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/layout_donation_dialog.xml.flat",
@@ -142,6 +142,10 @@
     {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_btn_custom.xml.flat",
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/btn_custom.xml"
+    },
+    {
+        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_profile.xml.flat",
+        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/profile.xml"
     },
     {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/layout_activity_story_items.xml.flat",
