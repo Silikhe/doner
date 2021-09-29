@@ -72,15 +72,8 @@ public class StoryDialogue extends AppCompatDialogFragment {
         return builder.create();
     }
 
-//    @Override
-//    public void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//
-//
-//
-//    }
 
-    private void postStory() {
+    public void postStory() {
         databaseReference = FirebaseDatabase.getInstance().getReference("Stories");
 
         storyTitle = donTitle.getText().toString();

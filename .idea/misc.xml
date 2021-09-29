@@ -11,7 +11,7 @@
         <entry key="app/src/main/res/layout/activity_add_donation.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_add_story.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_blog_items.xml" value="0.18" />
-        <entry key="app/src/main/res/layout/activity_don_panell.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_don_panell.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_donation.xml" value="0.15040650406504066" />
         <entry key="app/src/main/res/layout/activity_full_box.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/activity_location.xml" value="0.33" />
@@ -20,6 +20,8 @@
         <entry key="app/src/main/res/layout/activity_maps.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/activity_signup.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_station.xml" value="0.10393258426966293" />
+        <entry key="app/src/main/res/layout/activity_station_recycler.xml" value="0.2277992277992278" />
         <entry key="app/src/main/res/layout/activity_story_items.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_test.xml" value="0.1" />
         <entry key="app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.19322916666666667" />

@@ -1839,6 +1839,8 @@ drawable accessories
 drawable add
 drawable avd_hide_password
 drawable avd_show_password
+drawable back
+drawable blogs
 drawable box
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -1849,6 +1851,8 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable call
+drawable clock
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1892,6 +1896,7 @@ drawable jeans
 drawable location
 drawable login
 drawable logo
+drawable mail
 drawable main1
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -1913,6 +1918,7 @@ drawable mtrl_navigation_bar_item_background
 drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
+drawable name_icon
 drawable navigation_empty_icon
 drawable notification
 drawable notification_action_background
@@ -2009,6 +2015,11 @@ id actions
 id activity_chooser_view_content
 id add
 id addDonBtn
+id add_alarm_action_text
+id add_alarm_fab
+id add_fab
+id add_person_action_text
+id add_person_fab
 id adjust_height
 id adjust_width
 id alertTitle
@@ -2028,12 +2039,14 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id automatic
+id back_btn
 id barrier
 id baseline
 id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id blogs
 id bottom
 id bottomNavigationView
 id bounce
@@ -2068,6 +2081,7 @@ id btn_tshirt
 id buttonPanel
 id cache_measures
 id cancel_button
+id card
 id carryVelocity
 id center
 id center_horizontal
@@ -2187,6 +2201,10 @@ id homeAsUp
 id honorRequest
 id horizontal_only
 id hybrid
+id ico1
+id ico2
+id ico3
+id ico5
 id icon
 id icon_group
 id icon_only
@@ -2195,6 +2213,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id imgSign
 id img_url
 id immediateStop
@@ -2318,6 +2337,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
+id rec_stations
 id rectangles
 id restart
 id reverse
@@ -2401,6 +2421,12 @@ id submenuarrow
 id submit_area
 id supportScrollUp
 id swipeRight
+id t1
+id t2
+id t3
+id t6
+id t7
+id t8
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2442,6 +2468,7 @@ id textView2
 id textView20
 id textView21
 id textView22
+id textView23
 id textView3
 id textView4
 id textView5
@@ -2464,6 +2491,7 @@ id titleDividerNoCustom
 id title_template
 id toggle
 id toolbar
+id toolbar2
 id top
 id topPanel
 id touch_outside
@@ -2579,6 +2607,8 @@ layout activity_main
 layout activity_maps
 layout activity_signup
 layout activity_splash_screen
+layout activity_station
+layout activity_station_recycler
 layout activity_story_items
 layout bottom_sheet_dialog
 layout browser_actions_context_menu_page

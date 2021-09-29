@@ -12,6 +12,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -56,6 +57,7 @@ public class DonPanellActivity extends AppCompatDialogFragment {
             @Override
             public void onClick(View view) {
                 donations.add("Shirt");
+                Toast.makeText(getActivity(),"Dress!",Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -63,6 +65,7 @@ public class DonPanellActivity extends AppCompatDialogFragment {
             @Override
             public void onClick(View view) {
                 donations.add("Dress");
+                Toast.makeText(getActivity(),"Dress!",Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -70,6 +73,7 @@ public class DonPanellActivity extends AppCompatDialogFragment {
             @Override
             public void onClick(View view) {
                 donations.add("Shoes");
+                Toast.makeText(getActivity(),"Shoes!",Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -79,6 +83,7 @@ public class DonPanellActivity extends AppCompatDialogFragment {
             @Override
             public void onClick(View view) {
                 donations.add("Pants");
+                Toast.makeText(getActivity(),"Pants!",Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -87,6 +92,7 @@ public class DonPanellActivity extends AppCompatDialogFragment {
             @Override
             public void onClick(View view) {
                 donations.add("Sweater");
+                Toast.makeText(getActivity(),"Sweater!",Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -94,6 +100,7 @@ public class DonPanellActivity extends AppCompatDialogFragment {
             @Override
             public void onClick(View view) {
                 donations.add("T-shirt");
+                Toast.makeText(getActivity(),"T-Shirt!",Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -101,6 +108,7 @@ public class DonPanellActivity extends AppCompatDialogFragment {
             @Override
             public void onClick(View view) {
                 donations.add("Jeans");
+                Toast.makeText(getActivity(),"Jeans!",Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -108,6 +116,7 @@ public class DonPanellActivity extends AppCompatDialogFragment {
             @Override
             public void onClick(View view) {
                 donations.add("Accessories");
+                Toast.makeText(getActivity(),"Accessories!",Toast.LENGTH_SHORT).show();
             }
         });
 

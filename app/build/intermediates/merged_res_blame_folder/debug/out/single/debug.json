@@ -20,12 +20,12 @@
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/login.xml"
     },
     {
-        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_dress.png.flat",
-        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/dress.png"
-    },
-    {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/layout_activity_login.xml.flat",
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_dress.png.flat",
+        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/dress.png"
     },
     {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/layout_donation_dialog.xml.flat",
@@ -68,8 +68,16 @@
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable-v24/tshirt.png"
     },
     {
+        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_blogs.xml.flat",
+        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/blogs.xml"
+    },
+    {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable-v24_sweater.png.flat",
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable-v24/sweater.png"
+    },
+    {
+        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/layout_activity_station_recycler.xml.flat",
+        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/layout/activity_station_recycler.xml"
     },
     {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
@@ -78,6 +86,10 @@
     {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable-v24_jeans.png.flat",
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable-v24/jeans.png"
+    },
+    {
+        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/layout_activity_station.xml.flat",
+        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/layout/activity_station.xml"
     },
     {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -92,6 +104,10 @@
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable-v24/suit.png"
     },
     {
+        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_back.xml.flat",
+        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/back.xml"
+    },
+    {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/anim_slide_in_left.xml.flat",
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/anim/slide_in_left.xml"
     },
@@ -104,8 +120,16 @@
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/layout/activity_location.xml"
     },
     {
+        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_mail.xml.flat",
+        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/mail.xml"
+    },
+    {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/menu_bottom_nav_menu.xml.flat",
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_call.xml.flat",
+        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/call.xml"
     },
     {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/anim_animation_file.xml.flat",
@@ -182,6 +206,14 @@
     {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable-v24_accessories.png.flat",
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable-v24/accessories.png"
+    },
+    {
+        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_clock.xml.flat",
+        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/clock.xml"
+    },
+    {
+        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable-v24_name_icon.png.flat",
+        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable-v24/name_icon.png"
     },
     {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_shoes.png.flat",

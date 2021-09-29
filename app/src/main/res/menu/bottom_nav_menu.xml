@@ -2,12 +2,16 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/home"
-        android:title="Location"
+        android:title="Centers"
         android:icon="@drawable/location"/>
     <item
         android:id="@+id/story"
         android:title="Add Story"
         android:icon="@drawable/add"/>
+    <item
+        android:id="@+id/blogs"
+        android:title="Blogs"
+        android:icon="@drawable/blogs"/>
     <item
         android:id="@+id/logout"
         android:title="Log Out"

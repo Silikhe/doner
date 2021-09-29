@@ -1,9 +1,16 @@
 com/example/donner/MainActivity.java
  com.example.donner.MainActivity
-com/example/donner/BuildConfig.java
- com.example.donner.BuildConfig
+com/example/donner/StationAdapter.java
+ com.example.donner.StationAdapter
+ com.example.donner.StationAdapter$stationViewHolder
+com/example/donner/AddDonation.java
+ com.example.donner.AddDonation
+ com.example.donner.AddDonation$1
+ com.example.donner.AddDonation$2
 com/example/donner/databinding/ActivityAddDonationBinding.java
  com.example.donner.databinding.ActivityAddDonationBinding
+com/example/donner/JsonMakers.java
+ com.example.donner.JsonMakers
 com/example/donner/databinding/ActivityLocationBinding.java
  com.example.donner.databinding.ActivityLocationBinding
 com/example/donner/SignupActivity.java
@@ -13,27 +20,40 @@ com/example/donner/SignupActivity.java
  com.example.donner.SignupActivity$3
 com/example/donner/LocationActivity.java
  com.example.donner.LocationActivity
-com/example/donner/StoryDialogue.java
- com.example.donner.StoryDialogue
- com.example.donner.StoryDialogue$1
- com.example.donner.StoryDialogue$2
- com.example.donner.StoryDialogue$3
+com/example/donner/DonPanellActivity.java
+ com.example.donner.DonPanellActivity
+ com.example.donner.DonPanellActivity$1
+ com.example.donner.DonPanellActivity$10
+ com.example.donner.DonPanellActivity$2
+ com.example.donner.DonPanellActivity$3
+ com.example.donner.DonPanellActivity$4
+ com.example.donner.DonPanellActivity$5
+ com.example.donner.DonPanellActivity$6
+ com.example.donner.DonPanellActivity$7
+ com.example.donner.DonPanellActivity$8
+ com.example.donner.DonPanellActivity$9
 Maps/Geometry.java
  Maps.Geometry
 Maps/Example.java
  Maps.Example
+com/example/donner/databinding/ActivityStationRecyclerBinding.java
+ com.example.donner.databinding.ActivityStationRecyclerBinding
 com/example/donner/databinding/DonationDialogBinding.java
  com.example.donner.databinding.DonationDialogBinding
 com/example/donner/databinding/ActivityDonPanellBinding.java
  com.example.donner.databinding.ActivityDonPanellBinding
-com/example/donner/databinding/ActivityLoginBinding.java
- com.example.donner.databinding.ActivityLoginBinding
+com/example/donner/FullBoxActivity.java
+ com.example.donner.FullBoxActivity
 com/example/donner/databinding/BottomSheetDialogBinding.java
  com.example.donner.databinding.BottomSheetDialogBinding
+com/example/donner/Stations.java
+ com.example.donner.Stations
 com/example/donner/Constants.java
  com.example.donner.Constants
 Maps/RetrofitMaps.java
  Maps.RetrofitMaps
+com/example/donner/StationWrapper.java
+ com.example.donner.StationWrapper
 Maps/OpeningHours.java
  Maps.OpeningHours
 com/example/donner/databinding/ActivityStoryItemsBinding.java
@@ -60,12 +80,8 @@ com/example/donner/databinding/ActivityDonationBinding.java
  com.example.donner.databinding.ActivityDonationBinding
 com/example/donner/databinding/ActivityFullBoxBinding.java
  com.example.donner.databinding.ActivityFullBoxBinding
-com/example/donner/DonationActivity.java
- com.example.donner.DonationActivity
- com.example.donner.DonationActivity$1
- com.example.donner.DonationActivity$2
- com.example.donner.DonationActivity$3
- com.example.donner.DonationActivity$4
+com/example/donner/BuildConfig.java
+ com.example.donner.BuildConfig
 Maps/Photo.java
  Maps.Photo
 Maps/Result.java
@@ -79,21 +95,23 @@ com/example/donner/databinding/LayoutDialogueBinding.java
  com.example.donner.databinding.LayoutDialogueBinding
 com/example/donner/databinding/ActivitySignupBinding.java
  com.example.donner.databinding.ActivitySignupBinding
-com/example/donner/DonPanellActivity.java
- com.example.donner.DonPanellActivity
- com.example.donner.DonPanellActivity$1
- com.example.donner.DonPanellActivity$10
- com.example.donner.DonPanellActivity$2
- com.example.donner.DonPanellActivity$3
- com.example.donner.DonPanellActivity$4
- com.example.donner.DonPanellActivity$5
- com.example.donner.DonPanellActivity$6
- com.example.donner.DonPanellActivity$7
- com.example.donner.DonPanellActivity$8
- com.example.donner.DonPanellActivity$9
-com/example/donner/FullBoxActivity.java
- com.example.donner.FullBoxActivity
-com/example/donner/AddDonation.java
- com.example.donner.AddDonation
- com.example.donner.AddDonation$1
- com.example.donner.AddDonation$2
+com/example/donner/StoryDialogue.java
+ com.example.donner.StoryDialogue
+ com.example.donner.StoryDialogue$1
+ com.example.donner.StoryDialogue$2
+ com.example.donner.StoryDialogue$3
+com/example/donner/databinding/ActivityLoginBinding.java
+ com.example.donner.databinding.ActivityLoginBinding
+com/example/donner/databinding/ActivityStationBinding.java
+ com.example.donner.databinding.ActivityStationBinding
+com/example/donner/StationActivity.java
+ com.example.donner.StationActivity
+ com.example.donner.StationActivity$1
+ com.example.donner.StationActivity$2
+ com.example.donner.StationActivity$3
+com/example/donner/DonationActivity.java
+ com.example.donner.DonationActivity
+ com.example.donner.DonationActivity$1
+ com.example.donner.DonationActivity$2
+ com.example.donner.DonationActivity$3
+ com.example.donner.DonationActivity$4

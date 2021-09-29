@@ -65,11 +65,16 @@ public class DonationActivity extends AppCompatActivity implements StoryRVAdapte
                     Intent intent = new Intent(context, LocationActivity.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(intent);
-//                    Toast.makeText(context, "Home Selected", Toast.LENGTH_LONG).show();
                     return true;
                 case R.id.story:
                     openDialogue();
-                return true;
+                    return true;
+                case R.id.blogs:
+                    Intent blog = new Intent(context, StationActivity.class);
+                    blog.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(blog);
+//                    Toast.makeText(DonationActivity.this, "Available Blogs !", Toast.LENGTH_LONG).show();
+                    return true;
                 case R.id.logout:
                     mAuth.signOut();
                     Intent i = new Intent(DonationActivity.this, LoginActivity.class);
@@ -108,7 +113,6 @@ public class DonationActivity extends AppCompatActivity implements StoryRVAdapte
             public void onClick(View view) {
                 Intent intent = new Intent(DonationActivity.this, AddDonation.class);
                 startActivity(intent);
-//                Toast.makeText(DonationActivity.this, "fab clicked", Toast.LENGTH_LONG).show();
             }
         });
 
