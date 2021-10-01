@@ -88,6 +88,10 @@
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable-v24/jeans.png"
     },
     {
+        "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/drawable_bottom_nav.xml.flat",
+        "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/drawable/bottom_nav.xml"
+    },
+    {
         "merged": "/home/moringa/AndroidStudioProjects/doner/app/build/intermediates/merged_res/debug/layout_activity_station.xml.flat",
         "source": "/home/moringa/AndroidStudioProjects/doner/app/src/main/res/layout/activity_station.xml"
     },

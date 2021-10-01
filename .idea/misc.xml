@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/add.xml" value="0.11197916666666667" />
+        <entry key="app/src/main/res/drawable/bottom_nav.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/btn_custom.xml" value="0.10520833333333333" />
         <entry key="app/src/main/res/drawable/et_custom.xml" value="0.10520833333333333" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.10520833333333333" />
@@ -12,7 +13,7 @@
         <entry key="app/src/main/res/layout/activity_add_story.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_blog_items.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_don_panell.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_donation.xml" value="0.15040650406504066" />
+        <entry key="app/src/main/res/layout/activity_donation.xml" value="0.15" />
         <entry key="app/src/main/res/layout/activity_full_box.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/activity_location.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />

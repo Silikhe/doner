@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
@@ -21,6 +22,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -28,7 +30,6 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -56,6 +57,7 @@ public class DonationActivity extends AppCompatActivity implements StoryRVAdapte
     private FirebaseAuth mAuth;
     String storyId;
     Context context = this;
+    private ScrollView scrollview;
 
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -107,9 +109,12 @@ public class DonationActivity extends AppCompatActivity implements StoryRVAdapte
 
         addDonations = findViewById(R.id.iv_add_donation);
         mAuth = FirebaseAuth.getInstance();
+        scrollview = ((ScrollView) findViewById(R.id.scrollview));
+
 
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.bottomNavigationView);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+
 
         donateFab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -118,6 +123,7 @@ public class DonationActivity extends AppCompatActivity implements StoryRVAdapte
                 startActivity(intent);
             }
         });
+
 
         addDonations.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -138,9 +144,17 @@ public class DonationActivity extends AppCompatActivity implements StoryRVAdapte
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 progressBar.setVisibility(View.GONE);
-                for (DataSnapshot dataSnapshot: snapshot.getChildren()){
+                for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
                     StoryModel storyModel = dataSnapshot.getValue(StoryModel.class);
                     storyList.add(storyModel);
+
+                    scrollview.post(new Runnable() {
+                        @Override
+                        public void run() {
+                            scrollview.fullScroll(View.FOCUS_DOWN);
+                            scrollview.setVerticalScrollBarEnabled(false);
+                        }
+                    });
                 }
 //                storyList.add(snapshot.getValue(StoryModel.class));
                 storyRVAdapter.notifyDataSetChanged();
@@ -181,7 +195,7 @@ public class DonationActivity extends AppCompatActivity implements StoryRVAdapte
 
     private void displayBottomSheet(StoryModel storyModel) {
         final BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(this);
-        View layout = LayoutInflater.from(this).inflate(R.layout.bottom_sheet_dialog, bottomSheet);
+        View layout = LayoutInflater.from(this).inflate(R.layout.bottom_sheet_dialog, bottomSheet, false);
         bottomSheetDialog.setContentView(layout);
         bottomSheetDialog.setCancelable(false);
         bottomSheetDialog.setCanceledOnTouchOutside(true);
@@ -189,6 +203,8 @@ public class DonationActivity extends AppCompatActivity implements StoryRVAdapte
 
         TextView storyContent = layout.findViewById(R.id.contents);
         storyContent.setText(storyModel.getStoryDesc());
+
+
     }
 
 

@@ -1,3 +1,32 @@
+com/example/donner/DonationListModel.java
+ com.example.donner.DonationListModel
+com/example/donner/StoryModel.java
+ com.example.donner.StoryModel
+ com.example.donner.StoryModel$1
+com/example/donner/Stations.java
+ com.example.donner.Stations
+Maps/OpeningHours.java
+ Maps.OpeningHours
+com/example/donner/JsonMakers.java
+ com.example.donner.JsonMakers
+com/example/donner/Constants.java
+ com.example.donner.Constants
+Maps/RetrofitMaps.java
+ Maps.RetrofitMaps
+com/example/donner/StationWrapper.java
+ com.example.donner.StationWrapper
+com/example/donner/BuildConfig.java
+ com.example.donner.BuildConfig
+Maps/Geometry.java
+ Maps.Geometry
+Maps/Example.java
+ Maps.Example
+Maps/Location.java
+ Maps.Location
+Maps/Result.java
+ Maps.Result
+Maps/Photo.java
+ Maps.Photo
 com/example/donner/MainActivity.java
  com.example.donner.MainActivity
 com/example/donner/StationAdapter.java
@@ -9,8 +38,6 @@ com/example/donner/AddDonation.java
  com.example.donner.AddDonation$2
 com/example/donner/databinding/ActivityAddDonationBinding.java
  com.example.donner.databinding.ActivityAddDonationBinding
-com/example/donner/JsonMakers.java
- com.example.donner.JsonMakers
 com/example/donner/databinding/ActivityLocationBinding.java
  com.example.donner.databinding.ActivityLocationBinding
 com/example/donner/SignupActivity.java
@@ -32,10 +59,6 @@ com/example/donner/DonPanellActivity.java
  com.example.donner.DonPanellActivity$7
  com.example.donner.DonPanellActivity$8
  com.example.donner.DonPanellActivity$9
-Maps/Geometry.java
- Maps.Geometry
-Maps/Example.java
- Maps.Example
 com/example/donner/StationActivity.java
  com.example.donner.StationActivity
  com.example.donner.StationActivity$1
@@ -49,16 +72,6 @@ com/example/donner/FullBoxActivity.java
  com.example.donner.FullBoxActivity
 com/example/donner/databinding/BottomSheetDialogBinding.java
  com.example.donner.databinding.BottomSheetDialogBinding
-com/example/donner/Stations.java
- com.example.donner.Stations
-com/example/donner/Constants.java
- com.example.donner.Constants
-Maps/RetrofitMaps.java
- Maps.RetrofitMaps
-com/example/donner/StationWrapper.java
- com.example.donner.StationWrapper
-Maps/OpeningHours.java
- Maps.OpeningHours
 com/example/donner/databinding/ActivityStoryItemsBinding.java
  com.example.donner.databinding.ActivityStoryItemsBinding
 com/example/donner/databinding/ActivityMainBinding.java
@@ -89,15 +102,7 @@ com/example/donner/DonationActivity.java
  com.example.donner.DonationActivity$2
  com.example.donner.DonationActivity$3
  com.example.donner.DonationActivity$4
-Maps/Photo.java
- Maps.Photo
-Maps/Result.java
- Maps.Result
-Maps/Location.java
- Maps.Location
-com/example/donner/StoryModel.java
- com.example.donner.StoryModel
- com.example.donner.StoryModel$1
+ com.example.donner.DonationActivity$4$1
 com/example/donner/databinding/LayoutDialogueBinding.java
  com.example.donner.databinding.LayoutDialogueBinding
 com/example/donner/databinding/ActivitySignupBinding.java
@@ -106,8 +111,6 @@ com/example/donner/databinding/ActivityStationBinding.java
  com.example.donner.databinding.ActivityStationBinding
 com/example/donner/databinding/ActivityLoginBinding.java
  com.example.donner.databinding.ActivityLoginBinding
-com/example/donner/BuildConfig.java
- com.example.donner.BuildConfig
 com/example/donner/databinding/ActivityStationRecyclerBinding.java
  com.example.donner.databinding.ActivityStationRecyclerBinding
 com/example/donner/StoryDialogue.java

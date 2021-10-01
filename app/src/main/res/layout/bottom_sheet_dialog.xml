@@ -1,24 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/yellow"
-    android:layout_height="wrap_content ">
-
+    android:layout_height="wrap_content"
+    android:indeterminateDrawable="@drawable/bottom_nav"
+    tools:ignore="MissingPrefix">
     <TextView
         android:id="@+id/contents"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_margin="4dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginBottom="4dp"
-        android:padding="4dp"
-        android:text="Silas smiles as the home page is one
-he’s used to. He reads a few stories
-and reports then he clicks the floating
-action button to begin donating."
-        android:textColor="@color/white"
-        android:textSize="18sp" />
-</RelativeLayout>
+        android:layout_height="wrap_content"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

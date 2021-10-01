@@ -37,9 +37,7 @@ public class DonPanellActivity extends AppCompatDialogFragment {
                     }
                 });
 
-//        Intent intent = new Intent(DonPanelActivity.this, FullBoxActivity.class);
-//        intent.putExtra("FILES_TO_SEND", donations);
-
+//
         btn = view.findViewById(R.id.btn_shirt);
         btn1 = view.findViewById(R.id.btn_dress);
         btn2 = view.findViewById(R.id.btn_shoes);

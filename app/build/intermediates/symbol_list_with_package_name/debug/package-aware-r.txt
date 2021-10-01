@@ -1841,6 +1841,7 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable back
 drawable blogs
+drawable bottom_nav
 drawable box
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -2360,6 +2361,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id scrollview
 id search_badge
 id search_bar
 id search_button
@@ -2413,6 +2415,7 @@ id stat_totalActDon
 id stat_totalDon
 id staticLayout
 id staticPostLayout
+id stats
 id stop
 id story
 id story_description
@@ -2850,6 +2853,8 @@ style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style Animation_MaterialComponents_BottomSheetDialog
+style AppBottomSheetDialogTheme
+style AppModalStyle
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog

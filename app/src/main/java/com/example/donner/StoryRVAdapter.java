@@ -9,6 +9,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -44,6 +45,8 @@ public class StoryRVAdapter extends RecyclerView.Adapter<StoryRVAdapter.MyViewHo
         Picasso.get().load(storyModel.getStoryImage()).into(holder.donImg);
         setAnimation(holder.itemView, position);
 
+        Toast.makeText(context, ""+Picasso.get().load(storyModel.getStoryImage()), Toast.LENGTH_SHORT).show();
+
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -56,36 +59,6 @@ public class StoryRVAdapter extends RecyclerView.Adapter<StoryRVAdapter.MyViewHo
     public int getItemCount() {
         return storyModels.size();
     }
-
-    //    public StoryRVAdapter(ArrayList<StoryModel> storyModels, Context context, StoryClickInterface storyClickInterface) {
-//        this.storyModels = storyModels;
-//        this.context = context;
-//        this.storyClickInterface = storyClickInterface;
-//    }
-//
-//    @NonNull
-//    @Override
-//    public StoryRVAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-//        View view = LayoutInflater.from(context).inflate(R.layout.activity_story_items, parent, false);
-//        return new ViewHolder(view);
-//    }
-//
-//    @Override
-//    public void onBindViewHolder(@NonNull StoryRVAdapter.ViewHolder holder, int position) {
-//       StoryModel storyModel = storyModels.get(position);
-//       holder.donName.setText(storyModel.getStoryTitle());
-//        holder.donContent.setText(storyModel.getStoryDesc());
-//        Picasso.get().load(storyModel.getStoryImage()).into(holder.donImg);
-//        setAnimation(holder.itemView, position);
-//
-//        holder.itemView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                storyClickInterface.onStoryClick(position);
-//            }
-//        });
-//    }
-//
     private void setAnimation(View itemView, int position) {
         if (position > lastPos) {
             Animation animation = AnimationUtils.loadAnimation(context, android.R.anim.slide_in_left);
@@ -94,17 +67,10 @@ public class StoryRVAdapter extends RecyclerView.Adapter<StoryRVAdapter.MyViewHo
         }
     }
 
-    //
-//    @Override
-//    public int getItemCount() {
-//        return storyModels.size();
-//    }
-//
     public class MyViewHolder extends RecyclerView.ViewHolder {
 
         private TextView donName, donContent;
         private ImageView donImg;
-
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -114,18 +80,6 @@ public class StoryRVAdapter extends RecyclerView.Adapter<StoryRVAdapter.MyViewHo
         }
     }
 
-    //    public class ViewHolder extends RecyclerView.ViewHolder {
-//        private TextView donName, donContent;
-//        private ImageView donImg;
-//
-//        public ViewHolder(@NonNull View itemView) {
-//            super(itemView);
-//            donName = itemView.findViewById(R.id.donName);
-//            donContent = itemView.findViewById(R.id.donContent);
-//            donImg = itemView.findViewById(R.id.donImg);
-//        }
-//    }
-//
     public interface StoryClickInterface {
         void onStoryClick(int position);
     }
